@@ -1,0 +1,1347 @@
+{
+  "bestPack": {
+    "packs": [
+      {
+        "no": 1,
+        "name": "260105_winterangeldoodle_pro",
+        "thumbnail": "/thumbnails/260105_winterangeldoodle_pro.png",
+        "assetCount": 30,
+        "releaseWeek": "1월 1주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 2398,
+            "nonSubsSubsView": 1244,
+            "nonSubsSubsSuccess": 56,
+            "subsSelect": 2978,
+            "subsSave": 2122
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 4529,
+            "nonSubsSubsView": 1958,
+            "nonSubsSubsSuccess": 155,
+            "subsSelect": 10916,
+            "subsSave": 6859
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "name": "260105_shapepatternseries_pro",
+        "thumbnail": "/thumbnails/260105_shapepatternseries_pro.png",
+        "assetCount": 30,
+        "releaseWeek": "1월 1주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 848,
+            "nonSubsSubsView": 295,
+            "nonSubsSubsSuccess": 19,
+            "subsSelect": 1527,
+            "subsSave": 724
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 1645,
+            "nonSubsSubsView": 415,
+            "nonSubsSubsSuccess": 20,
+            "subsSelect": 4127,
+            "subsSave": 1753
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "name": "260105_cutesimplelabel_pro",
+        "thumbnail": "/thumbnails/260105_cutesimplelabel_pro.png",
+        "assetCount": 26,
+        "releaseWeek": "1월 1주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 383,
+            "nonSubsSubsView": 200,
+            "nonSubsSubsSuccess": 9,
+            "subsSelect": 1206,
+            "subsSave": 674
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 785,
+            "nonSubsSubsView": 276,
+            "nonSubsSubsSuccess": 21,
+            "subsSelect": 2103,
+            "subsSave": 1063
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "name": "260105_visionboardcollage_pro",
+        "thumbnail": "/thumbnails/260105_visionboardcollage_pro.png",
+        "assetCount": 30,
+        "releaseWeek": "1월 1주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 278,
+            "nonSubsSubsView": 157,
+            "nonSubsSubsSuccess": 8,
+            "subsSelect": 285,
+            "subsSave": 203
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 719,
+            "nonSubsSubsView": 367,
+            "nonSubsSubsSuccess": 31,
+            "subsSelect": 1213,
+            "subsSave": 735
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "name": "260112_fluffyfuremoji_pro",
+        "thumbnail": "/thumbnails/260112_fluffyfuremoji_pro.png",
+        "assetCount": 30,
+        "releaseWeek": "1월 2주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 1064,
+            "nonSubsSubsView": 408,
+            "nonSubsSubsSuccess": 10,
+            "subsSelect": 2324,
+            "subsSave": 1166
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 1557,
+            "nonSubsSubsView": 467,
+            "nonSubsSubsSuccess": 18,
+            "subsSelect": 4168,
+            "subsSave": 2026
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "name": "260112_y2kpins_pro",
+        "thumbnail": "/thumbnails/260112_y2kpins_pro.png",
+        "assetCount": 25,
+        "releaseWeek": "1월 2주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 598,
+            "nonSubsSubsView": 243,
+            "nonSubsSubsSuccess": 16,
+            "subsSelect": 1234,
+            "subsSave": 603
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 1054,
+            "nonSubsSubsView": 363,
+            "nonSubsSubsSuccess": 18,
+            "subsSelect": 2066,
+            "subsSave": 938
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "name": "260112_corkcafeicon_pro",
+        "thumbnail": "/thumbnails/260112_corkcafeicon_pro.png",
+        "assetCount": 34,
+        "releaseWeek": "1월 2주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 111,
+            "nonSubsSubsView": 31,
+            "nonSubsSubsSuccess": 8,
+            "subsSelect": 174,
+            "subsSave": 73
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 97,
+            "nonSubsSubsView": 22,
+            "nonSubsSubsSuccess": 2,
+            "subsSelect": 289,
+            "subsSave": 124
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "name": "260119_luckyandhappy_pro",
+        "thumbnail": "/thumbnails/260119_luckyandhappy_pro.png",
+        "assetCount": 30,
+        "releaseWeek": "1월 3주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 1375,
+            "nonSubsSubsView": 432,
+            "nonSubsSubsSuccess": 14,
+            "subsSelect": 2738,
+            "subsSave": 1115
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 1780,
+            "nonSubsSubsView": 529,
+            "nonSubsSubsSuccess": 39,
+            "subsSelect": 5255,
+            "subsSave": 2148
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "name": "260119_princessgyaru_pro",
+        "thumbnail": "/thumbnails/260119_princessgyaru_pro.png",
+        "assetCount": 30,
+        "releaseWeek": "1월 3주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 967,
+            "nonSubsSubsView": 318,
+            "nonSubsSubsSuccess": 3,
+            "subsSelect": 1970,
+            "subsSave": 864
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 1236,
+            "nonSubsSubsView": 337,
+            "nonSubsSubsSuccess": 25,
+            "subsSelect": 3700,
+            "subsSave": 1639
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "name": "260119_minipaperdoodle_pro",
+        "thumbnail": "/thumbnails/260119_minipaperdoodle_pro.png",
+        "assetCount": 30,
+        "releaseWeek": "1월 3주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 542,
+            "nonSubsSubsView": 318,
+            "nonSubsSubsSuccess": 20,
+            "subsSelect": 1157,
+            "subsSave": 806
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 1022,
+            "nonSubsSubsView": 474,
+            "nonSubsSubsSuccess": 53,
+            "subsSelect": 3323,
+            "subsSave": 2334
+          }
+        ]
+      },
+      {
+        "no": 11,
+        "name": "260120_trendfoodemoji_pro",
+        "thumbnail": "/thumbnails/260120_trendfoodemoji_pro.png",
+        "assetCount": 30,
+        "releaseWeek": "1월 3주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 578,
+            "nonSubsSubsView": 138,
+            "nonSubsSubsSuccess": 14,
+            "subsSelect": 1046,
+            "subsSave": 542
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 878,
+            "nonSubsSubsView": 171,
+            "nonSubsSubsSuccess": 7,
+            "subsSelect": 2249,
+            "subsSave": 1133
+          }
+        ]
+      },
+      {
+        "no": 12,
+        "name": "260126_kitschblurdrawing_pro",
+        "thumbnail": "/thumbnails/260126_kitschblurdrawing_pro.png",
+        "assetCount": 35,
+        "releaseWeek": "1월 4주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 1780,
+            "nonSubsSubsView": 559,
+            "nonSubsSubsSuccess": 24,
+            "subsSelect": 3030,
+            "subsSave": 1410
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 0,
+            "nonSubsSubsView": 0,
+            "nonSubsSubsSuccess": 0,
+            "subsSelect": 0,
+            "subsSave": 0
+          }
+        ]
+      },
+      {
+        "no": 13,
+        "name": "260126_circlegrainblur_pro",
+        "thumbnail": "/thumbnails/260126_circlegrainblur_pro.png",
+        "assetCount": 25,
+        "releaseWeek": "1월 4주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 2189,
+            "nonSubsSubsView": 503,
+            "nonSubsSubsSuccess": 18,
+            "subsSelect": 3898,
+            "subsSave": 1413
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 0,
+            "nonSubsSubsView": 0,
+            "nonSubsSubsSuccess": 0,
+            "subsSelect": 0,
+            "subsSave": 0
+          }
+        ]
+      },
+      {
+        "no": 14,
+        "name": "260126_redglassesbear_pro",
+        "thumbnail": "/thumbnails/260126_redglassesbear_pro.png",
+        "assetCount": 24,
+        "releaseWeek": "1월 4주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 986,
+            "nonSubsSubsView": 318,
+            "nonSubsSubsSuccess": 17,
+            "subsSelect": 1954,
+            "subsSave": 1091
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 0,
+            "nonSubsSubsView": 0,
+            "nonSubsSubsSuccess": 0,
+            "subsSelect": 0,
+            "subsSave": 0
+          }
+        ]
+      },
+      {
+        "no": 15,
+        "name": "260126_popcollagepaper_pro",
+        "thumbnail": "/thumbnails/260126_popcollagepaper_pro.png",
+        "assetCount": 30,
+        "releaseWeek": "1월 4주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 580,
+            "nonSubsSubsView": 152,
+            "nonSubsSubsSuccess": 7,
+            "subsSelect": 876,
+            "subsSave": 377
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 0,
+            "nonSubsSubsView": 0,
+            "nonSubsSubsSuccess": 0,
+            "subsSelect": 0,
+            "subsSave": 0
+          }
+        ]
+      }
+    ]
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "weekName": "2026년 1월 1주",
+      "packages": [
+        {
+          "no": 1,
+          "name": "251202_SimpleCalendar_pro",
+          "thumbnail": "/thumbnails/251202_SimpleCalendar_pro.png",
+          "assetCount": 45,
+          "nonSubsSelect": 23,
+          "nonSubsSubsView": 352,
+          "nonSubsSubsSuccess": 27,
+          "select": 202,
+          "save": 10557
+        },
+        {
+          "no": 2,
+          "name": "251202_handdrawingcalendar_pro",
+          "thumbnail": "/thumbnails/251202_handdrawingcalendar_pro.png",
+          "assetCount": 45,
+          "nonSubsSelect": 848,
+          "nonSubsSubsView": 2125,
+          "nonSubsSubsSuccess": 54,
+          "select": 2738,
+          "save": 8095
+        },
+        {
+          "no": 3,
+          "name": "251229_pixelpendrawing_pro",
+          "thumbnail": "/thumbnails/251229_pixelpendrawing_pro.png",
+          "assetCount": 30,
+          "nonSubsSelect": 3883,
+          "nonSubsSubsView": 1098,
+          "nonSubsSubsSuccess": 96,
+          "select": 13326,
+          "save": 4326
+        }
+      ],
+      "topAssets": [
+        {
+          "rank": 1,
+          "title": "251229_pixelpendrawing28_pro",
+          "categories": "251229_pixelpendrawing_pro",
+          "thumbnail": "/new-stamp-assets/251229_pixelpendrawing_pro.png",
+          "select": 3099,
+          "save": 1143,
+          "savePercent": 0.37,
+          "editorFavorite": 62
+        },
+        {
+          "rank": 2,
+          "title": "251208_CrayonDecoratingSticker08_pro",
+          "categories": "251208_CrayonDecoratingSticker_pro",
+          "thumbnail": "/new-stamp-assets/251208_CrayonDecoratingSticker_pro.png",
+          "select": 1797,
+          "save": 910,
+          "savePercent": 0.51,
+          "editorFavorite": 35
+        },
+        {
+          "rank": 3,
+          "title": "251110_blackmarkerdoodle24_pro",
+          "categories": "251110_blackmarkerdoodle_pro",
+          "thumbnail": "/new-stamp-assets/251110_blackmarkerdoodle_pro.png",
+          "select": 273,
+          "save": 866,
+          "savePercent": 3.17,
+          "editorFavorite": 6
+        },
+        {
+          "rank": 4,
+          "title": "251202_handdrawingcalendar01_pro",
+          "categories": "251202_handdrawingcalendar_pro",
+          "thumbnail": "/new-stamp-assets/251202_handdrawingcalendar_pro.png",
+          "select": 452,
+          "save": 840,
+          "savePercent": 1.86,
+          "editorFavorite": 0
+        },
+        {
+          "rank": 5,
+          "title": "251202_handdrawingcalendar11_pro",
+          "categories": "251202_handdrawingcalendar_pro",
+          "thumbnail": "/new-stamp-assets/251202_handdrawingcalendar_pro.png",
+          "select": 787,
+          "save": 663,
+          "savePercent": 0.84,
+          "editorFavorite": 3
+        },
+        {
+          "rank": 6,
+          "title": "251208_ChristmasDotArt06_pro",
+          "categories": "251208_ChristmasDotArt_pro",
+          "thumbnail": "/new-stamp-assets/251208_ChristmasDotArt_pro.png",
+          "select": 1015,
+          "save": 564,
+          "savePercent": 0.56,
+          "editorFavorite": 11
+        },
+        {
+          "rank": 7,
+          "title": "251229_pixelpendrawing19_pro",
+          "categories": "251229_pixelpendrawing_pro",
+          "thumbnail": "/new-stamp-assets/251229_pixelpendrawing_pro.png",
+          "select": 1762,
+          "save": 403,
+          "savePercent": 0.23,
+          "editorFavorite": 12
+        },
+        {
+          "rank": 8,
+          "title": "251208_ChristmasDotArt01_pro",
+          "categories": "251208_ChristmasDotArt_pro",
+          "thumbnail": "/new-stamp-assets/251208_ChristmasDotArt_pro.png",
+          "select": 563,
+          "save": 399,
+          "savePercent": 0.71,
+          "editorFavorite": 3
+        },
+        {
+          "rank": 9,
+          "title": "251229_pixelpendrawing14_pro",
+          "categories": "251229_pixelpendrawing_pro",
+          "thumbnail": "/new-stamp-assets/251229_pixelpendrawing_pro.png",
+          "select": 1172,
+          "save": 397,
+          "savePercent": 0.34,
+          "editorFavorite": 25
+        },
+        {
+          "rank": 10,
+          "title": "251208_ChristmasDotArt12_pro",
+          "categories": "251208_ChristmasDotArt_pro",
+          "thumbnail": "/new-stamp-assets/251208_ChristmasDotArt_pro.png",
+          "select": 592,
+          "save": 393,
+          "savePercent": 0.66,
+          "editorFavorite": 19
+        },
+        {
+          "rank": 11,
+          "title": "251202_handdrawingcalendar34_pro",
+          "categories": "251202_handdrawingcalendar_pro",
+          "thumbnail": "/new-stamp-assets/251202_handdrawingcalendar_pro.png",
+          "select": 365,
+          "save": 387,
+          "savePercent": 1.06,
+          "editorFavorite": 0
+        },
+        {
+          "rank": 12,
+          "title": "250811_whiteblurascii02_pro",
+          "categories": "250811_whiteblurascii_pro",
+          "thumbnail": "/new-stamp-assets/250811_whiteblurascii_pro.png",
+          "select": 393,
+          "save": 370,
+          "savePercent": 0.94,
+          "editorFavorite": 13
+        },
+        {
+          "rank": 13,
+          "title": "220617_gradationheart32",
+          "categories": "220617_gradationheart",
+          "thumbnail": "/new-stamp-assets/220617_gradationheart.png",
+          "select": 606,
+          "save": 349,
+          "savePercent": 0.58,
+          "editorFavorite": 47
+        },
+        {
+          "rank": 14,
+          "title": "250825_gradationdot01_pro",
+          "categories": "250825_gradationdot_pro",
+          "thumbnail": "/new-stamp-assets/250825_gradationdot_pro.png",
+          "select": 699,
+          "save": 325,
+          "savePercent": 0.46,
+          "editorFavorite": 20
+        },
+        {
+          "rank": 15,
+          "title": "251208_CrayonDecoratingSticker09_pro",
+          "categories": "251208_CrayonDecoratingSticker_pro",
+          "thumbnail": "/new-stamp-assets/251208_CrayonDecoratingSticker_pro.png",
+          "select": 779,
+          "save": 318,
+          "savePercent": 0.41,
+          "editorFavorite": 12
+        },
+        {
+          "rank": 16,
+          "title": "260102_newyearlabel14_pro",
+          "categories": "260102_newyearlabel_pro",
+          "thumbnail": "/new-stamp-assets/260102_newyearlabel_pro.png",
+          "select": 1495,
+          "save": 301,
+          "savePercent": 0.2,
+          "editorFavorite": 16
+        },
+        {
+          "rank": 17,
+          "title": "250811_thinsketchdoodle01_pro",
+          "categories": "250811_thinsketchdoodle_pro",
+          "thumbnail": "/new-stamp-assets/250811_thinsketchdoodle_pro.png",
+          "select": 784,
+          "save": 286,
+          "savePercent": 0.36,
+          "editorFavorite": 0
+        },
+        {
+          "rank": 18,
+          "title": "250602_Pixelblurascii13_pro",
+          "categories": "250602_pixelblurascii_pro",
+          "thumbnail": "/new-stamp-assets/250602_pixelblurascii_pro.png",
+          "select": 609,
+          "save": 277,
+          "savePercent": 0.45,
+          "editorFavorite": 17
+        },
+        {
+          "rank": 19,
+          "title": "260102_newyearlabel27_pro",
+          "categories": "260102_newyearlabel_pro",
+          "thumbnail": "/new-stamp-assets/260102_newyearlabel_pro.png",
+          "select": 984,
+          "save": 276,
+          "savePercent": 0.28,
+          "editorFavorite": 26
+        },
+        {
+          "rank": 20,
+          "title": "250428_heartcollage01_pro",
+          "categories": "250428_heartcollage_pro",
+          "thumbnail": "/new-stamp-assets/250428_heartcollage_pro.png",
+          "select": 121,
+          "save": 272,
+          "savePercent": 2.25,
+          "editorFavorite": 0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "weekName": "2026년 1월 2주",
+      "packages": [
+        {
+          "no": 1,
+          "name": "260105_winterangeldoodle_pro",
+          "thumbnail": "/thumbnails/260105_winterangeldoodle_pro.png",
+          "assetCount": 30,
+          "nonSubsSelect": 4529,
+          "nonSubsSubsView": 1958,
+          "nonSubsSubsSuccess": 155,
+          "select": 15580,
+          "save": 6881
+        },
+        {
+          "no": 2,
+          "name": "251202_SimpleCalendar_pro",
+          "thumbnail": "/thumbnails/251202_SimpleCalendar_pro.png",
+          "assetCount": 45,
+          "nonSubsSelect": 6,
+          "nonSubsSubsView": 212,
+          "nonSubsSubsSuccess": 6,
+          "select": 117,
+          "save": 3175
+        },
+        {
+          "no": 3,
+          "name": "251202_handdrawingcalendar_pro",
+          "thumbnail": "/thumbnails/251202_handdrawingcalendar_pro.png",
+          "assetCount": 45,
+          "nonSubsSelect": 374,
+          "nonSubsSubsView": 709,
+          "nonSubsSubsSuccess": 11,
+          "select": 1371,
+          "save": 3086
+        }
+      ],
+      "topAssets": [
+        {
+          "rank": 1,
+          "title": "260105_winterangeldoodle28_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 2447,
+          "save": 1225,
+          "savePercent": 0.5,
+          "editorFavorite": 65
+        },
+        {
+          "rank": 2,
+          "title": "260105_winterangeldoodle27_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 2608,
+          "save": 1186,
+          "savePercent": 0.45,
+          "editorFavorite": 55
+        },
+        {
+          "rank": 3,
+          "title": "251229_pixelpendrawing28_pro",
+          "categories": "251229_pixelpendrawing_pro",
+          "thumbnail": "/new-stamp-assets/251229_pixelpendrawing_pro.png",
+          "select": 1874,
+          "save": 671,
+          "savePercent": 0.36,
+          "editorFavorite": 30
+        },
+        {
+          "rank": 4,
+          "title": "251208_CrayonDecoratingSticker08_pro",
+          "categories": "251208_CrayonDecoratingSticker_pro",
+          "thumbnail": "/new-stamp-assets/251208_CrayonDecoratingSticker_pro.png",
+          "select": 1097,
+          "save": 611,
+          "savePercent": 0.56,
+          "editorFavorite": 28
+        },
+        {
+          "rank": 5,
+          "title": "260105_winterangeldoodle17_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 1276,
+          "save": 558,
+          "savePercent": 0.44,
+          "editorFavorite": 16
+        },
+        {
+          "rank": 6,
+          "title": "251208_ChristmasDotArt06_pro",
+          "categories": "251208_ChristmasDotArt_pro",
+          "thumbnail": "/new-stamp-assets/251208_ChristmasDotArt_pro.png",
+          "select": 907,
+          "save": 492,
+          "savePercent": 0.54,
+          "editorFavorite": 6
+        },
+        {
+          "rank": 7,
+          "title": "260105_winterangeldoodle04_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 1123,
+          "save": 457,
+          "savePercent": 0.41,
+          "editorFavorite": 11
+        },
+        {
+          "rank": 8,
+          "title": "251208_ChristmasDotArt01_pro",
+          "categories": "251208_ChristmasDotArt_pro",
+          "thumbnail": "/new-stamp-assets/251208_ChristmasDotArt_pro.png",
+          "select": 549,
+          "save": 436,
+          "savePercent": 0.79,
+          "editorFavorite": 3
+        },
+        {
+          "rank": 9,
+          "title": "251208_ChristmasDotArt12_pro",
+          "categories": "251208_ChristmasDotArt_pro",
+          "thumbnail": "/new-stamp-assets/251208_ChristmasDotArt_pro.png",
+          "select": 603,
+          "save": 427,
+          "savePercent": 0.71,
+          "editorFavorite": 9
+        },
+        {
+          "rank": 10,
+          "title": "260105_winterangeldoodle26_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 711,
+          "save": 376,
+          "savePercent": 0.53,
+          "editorFavorite": 7
+        },
+        {
+          "rank": 11,
+          "title": "260105_shapepatternseries07_pro",
+          "categories": "260105_shapepatternseries_pro",
+          "thumbnail": "/new-stamp-assets/260105_shapepatternseries_pro.png",
+          "select": 1561,
+          "save": 369,
+          "savePercent": 0.24,
+          "editorFavorite": 11
+        },
+        {
+          "rank": 12,
+          "title": "260105_winterangeldoodle10_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 770,
+          "save": 354,
+          "savePercent": 0.46,
+          "editorFavorite": 0
+        },
+        {
+          "rank": 13,
+          "title": "251229_pixelpendrawing14_pro",
+          "categories": "251229_pixelpendrawing_pro",
+          "thumbnail": "/new-stamp-assets/251229_pixelpendrawing_pro.png",
+          "select": 954,
+          "save": 336,
+          "savePercent": 0.35,
+          "editorFavorite": 10
+        },
+        {
+          "rank": 14,
+          "title": "250811_whiteblurascii02_pro",
+          "categories": "250811_whiteblurascii_pro",
+          "thumbnail": "/new-stamp-assets/250811_whiteblurascii_pro.png",
+          "select": 307,
+          "save": 335,
+          "savePercent": 1.09,
+          "editorFavorite": 16
+        },
+        {
+          "rank": 15,
+          "title": "251110_blackmarkerdoodle24_pro",
+          "categories": "251110_blackmarkerdoodle_pro",
+          "thumbnail": "/new-stamp-assets/251110_blackmarkerdoodle_pro.png",
+          "select": 239,
+          "save": 331,
+          "savePercent": 1.38,
+          "editorFavorite": 3
+        },
+        {
+          "rank": 16,
+          "title": "260112_fluffyfuremoji30_pro",
+          "categories": "260112_fluffyfuremoji_pro",
+          "thumbnail": "/new-stamp-assets/260112_fluffyfuremoji_pro.png",
+          "select": 853,
+          "save": 320,
+          "savePercent": 0.38,
+          "editorFavorite": 20
+        },
+        {
+          "rank": 17,
+          "title": "260105_winterangeldoodle21_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 694,
+          "save": 317,
+          "savePercent": 0.46,
+          "editorFavorite": 7
+        },
+        {
+          "rank": 18,
+          "title": "251202_handdrawingcalendar01_pro",
+          "categories": "251202_handdrawingcalendar_pro",
+          "thumbnail": "/new-stamp-assets/251202_handdrawingcalendar_pro.png",
+          "select": 244,
+          "save": 305,
+          "savePercent": 1.25,
+          "editorFavorite": 0
+        },
+        {
+          "rank": 19,
+          "title": "220617_gradationheart32",
+          "categories": "220617_gradationheart",
+          "thumbnail": "/new-stamp-assets/220617_gradationheart.png",
+          "select": 490,
+          "save": 288,
+          "savePercent": 0.59,
+          "editorFavorite": 43
+        },
+        {
+          "rank": 20,
+          "title": "260105_visionboardcollage22_pro",
+          "categories": "260105_visionboardcollage_pro",
+          "thumbnail": "/new-stamp-assets/260105_visionboardcollage_pro.png",
+          "select": 845,
+          "save": 272,
+          "savePercent": 0.32,
+          "editorFavorite": 3
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "weekName": "2026년 1월 3주",
+      "packages": [
+        {
+          "no": 1,
+          "name": "260105_winterangeldoodle_pro",
+          "thumbnail": "/thumbnails/260105_winterangeldoodle_pro.png",
+          "assetCount": 30,
+          "nonSubsSelect": 2486,
+          "nonSubsSubsView": 1279,
+          "nonSubsSubsSuccess": 173,
+          "select": 10519,
+          "save": 5147
+        },
+        {
+          "no": 2,
+          "name": "251202_SimpleCalendar_pro",
+          "thumbnail": "/thumbnails/251202_SimpleCalendar_pro.png",
+          "assetCount": 45,
+          "nonSubsSelect": 0,
+          "nonSubsSubsView": 118,
+          "nonSubsSubsSuccess": 0,
+          "select": 53,
+          "save": 2586
+        },
+        {
+          "no": 3,
+          "name": "251208_CrayonDecoratingSticker_pro",
+          "thumbnail": "/thumbnails/251208_CrayonDecoratingSticker_pro.png",
+          "assetCount": 30,
+          "nonSubsSelect": 885,
+          "nonSubsSubsView": 692,
+          "nonSubsSubsSuccess": 52,
+          "select": 5522,
+          "save": 2473
+        }
+      ],
+      "topAssets": [
+        {
+          "rank": 1,
+          "title": "260105_winterangeldoodle28_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 1758,
+          "save": 994,
+          "savePercent": 0.57,
+          "editorFavorite": 36
+        },
+        {
+          "rank": 2,
+          "title": "260105_winterangeldoodle27_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 1876,
+          "save": 905,
+          "savePercent": 0.48,
+          "editorFavorite": 38
+        },
+        {
+          "rank": 3,
+          "title": "251208_ChristmasDotArt06_pro",
+          "categories": "251208_ChristmasDotArt_pro",
+          "thumbnail": "/new-stamp-assets/251208_ChristmasDotArt_pro.png",
+          "select": 1120,
+          "save": 601,
+          "savePercent": 0.54,
+          "editorFavorite": 10
+        },
+        {
+          "rank": 4,
+          "title": "251229_pixelpendrawing28_pro",
+          "categories": "251229_pixelpendrawing_pro",
+          "thumbnail": "/new-stamp-assets/251229_pixelpendrawing_pro.png",
+          "select": 1381,
+          "save": 538,
+          "savePercent": 0.39,
+          "editorFavorite": 17
+        },
+        {
+          "rank": 5,
+          "title": "260112_fluffyfuremoji30_pro",
+          "categories": "260112_fluffyfuremoji_pro",
+          "thumbnail": "/new-stamp-assets/260112_fluffyfuremoji_pro.png",
+          "select": 1390,
+          "save": 535,
+          "savePercent": 0.38,
+          "editorFavorite": 22
+        },
+        {
+          "rank": 6,
+          "title": "251208_CrayonDecoratingSticker08_pro",
+          "categories": "251208_CrayonDecoratingSticker_pro",
+          "thumbnail": "/new-stamp-assets/251208_CrayonDecoratingSticker_pro.png",
+          "select": 990,
+          "save": 534,
+          "savePercent": 0.54,
+          "editorFavorite": 18
+        },
+        {
+          "rank": 7,
+          "title": "251208_ChristmasDotArt12_pro",
+          "categories": "251208_ChristmasDotArt_pro",
+          "thumbnail": "/new-stamp-assets/251208_ChristmasDotArt_pro.png",
+          "select": 710,
+          "save": 465,
+          "savePercent": 0.65,
+          "editorFavorite": 9
+        },
+        {
+          "rank": 8,
+          "title": "260105_winterangeldoodle17_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 854,
+          "save": 425,
+          "savePercent": 0.5,
+          "editorFavorite": 14
+        },
+        {
+          "rank": 9,
+          "title": "260119_luckyandhappy01_pro",
+          "categories": "260119_luckyandhappy_pro",
+          "thumbnail": "/new-stamp-assets/260119_luckyandhappy_pro.png",
+          "select": 1221,
+          "save": 403,
+          "savePercent": 0.33,
+          "editorFavorite": 25
+        },
+        {
+          "rank": 10,
+          "title": "251208_ChristmasDotArt01_pro",
+          "categories": "251208_ChristmasDotArt_pro",
+          "thumbnail": "/new-stamp-assets/251208_ChristmasDotArt_pro.png",
+          "select": 440,
+          "save": 360,
+          "savePercent": 0.82,
+          "editorFavorite": 4
+        },
+        {
+          "rank": 11,
+          "title": "260105_winterangeldoodle04_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 716,
+          "save": 355,
+          "savePercent": 0.5,
+          "editorFavorite": 7
+        },
+        {
+          "rank": 12,
+          "title": "260120_trendfoodemoji16_pro",
+          "categories": "260120_trendfoodemoji_pro",
+          "thumbnail": "/new-stamp-assets/260120_trendfoodemoji_pro.png",
+          "select": 1163,
+          "save": 339,
+          "savePercent": 0.29,
+          "editorFavorite": 29
+        },
+        {
+          "rank": 13,
+          "title": "220617_gradationheart32",
+          "categories": "220617_gradationheart",
+          "thumbnail": "/new-stamp-assets/220617_gradationheart.png",
+          "select": 486,
+          "save": 308,
+          "savePercent": 0.63,
+          "editorFavorite": 43
+        },
+        {
+          "rank": 14,
+          "title": "250811_whiteblurascii02_pro",
+          "categories": "250811_whiteblurascii_pro",
+          "thumbnail": "/new-stamp-assets/250811_whiteblurascii_pro.png",
+          "select": 269,
+          "save": 302,
+          "savePercent": 1.12,
+          "editorFavorite": 14
+        },
+        {
+          "rank": 15,
+          "title": "260105_shapepatternseries07_pro",
+          "categories": "260105_shapepatternseries_pro",
+          "thumbnail": "/new-stamp-assets/260105_shapepatternseries_pro.png",
+          "select": 1238,
+          "save": 286,
+          "savePercent": 0.23,
+          "editorFavorite": 11
+        },
+        {
+          "rank": 16,
+          "title": "251110_blackmarkerdoodle24_pro",
+          "categories": "251110_blackmarkerdoodle_pro",
+          "thumbnail": "/new-stamp-assets/251110_blackmarkerdoodle_pro.png",
+          "select": 211,
+          "save": 284,
+          "savePercent": 1.35,
+          "editorFavorite": 0
+        },
+        {
+          "rank": 17,
+          "title": "260112_y2kpins24_pro",
+          "categories": "260112_y2kpins_pro",
+          "thumbnail": "/new-stamp-assets/260112_y2kpins_pro.png",
+          "select": 803,
+          "save": 280,
+          "savePercent": 0.35,
+          "editorFavorite": 9
+        },
+        {
+          "rank": 18,
+          "title": "251208_CrayonDecoratingSticker09_pro",
+          "categories": "251208_CrayonDecoratingSticker_pro",
+          "thumbnail": "/new-stamp-assets/251208_CrayonDecoratingSticker_pro.png",
+          "select": 680,
+          "save": 267,
+          "savePercent": 0.39,
+          "editorFavorite": 17
+        },
+        {
+          "rank": 19,
+          "title": "260105_winterangeldoodle10_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 543,
+          "save": 250,
+          "savePercent": 0.46,
+          "editorFavorite": 4
+        },
+        {
+          "rank": 20,
+          "title": "260105_winterangeldoodle26_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 468,
+          "save": 249,
+          "savePercent": 0.53,
+          "editorFavorite": 0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "weekName": "2026년 1월 4주",
+      "packages": [
+        {
+          "no": 1,
+          "name": "260105_winterangeldoodle_pro",
+          "thumbnail": "/thumbnails/260105_winterangeldoodle_pro.png",
+          "assetCount": 30,
+          "nonSubsSelect": 2857,
+          "nonSubsSubsView": 1560,
+          "nonSubsSubsSuccess": 122,
+          "select": 10441,
+          "save": 5158
+        },
+        {
+          "no": 2,
+          "name": "251208_CrayonDecoratingSticker_pro",
+          "thumbnail": "/thumbnails/251208_CrayonDecoratingSticker_pro.png",
+          "assetCount": 30,
+          "nonSubsSelect": 738,
+          "nonSubsSubsView": 630,
+          "nonSubsSubsSuccess": 61,
+          "select": 5330,
+          "save": 2381
+        },
+        {
+          "no": 3,
+          "name": "260119_minipaperdoodle_pro",
+          "thumbnail": "/thumbnails/260119_minipaperdoodle_pro.png",
+          "assetCount": 30,
+          "nonSubsSelect": 1022,
+          "nonSubsSubsView": 474,
+          "nonSubsSubsSuccess": 53,
+          "select": 4783,
+          "save": 2336
+        }
+      ],
+      "topAssets": [
+        {
+          "rank": 1,
+          "title": "260119_luckyandhappy01_pro",
+          "categories": "260119_luckyandhappy_pro",
+          "thumbnail": "/new-stamp-assets/260119_luckyandhappy_pro.png",
+          "select": 2506,
+          "save": 834,
+          "savePercent": 0.33,
+          "editorFavorite": 46
+        },
+        {
+          "rank": 2,
+          "title": "260105_winterangeldoodle28_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 1447,
+          "save": 790,
+          "savePercent": 0.55,
+          "editorFavorite": 27
+        },
+        {
+          "rank": 3,
+          "title": "260120_trendfoodemoji16_pro",
+          "categories": "260120_trendfoodemoji_pro",
+          "thumbnail": "/new-stamp-assets/260120_trendfoodemoji_pro.png",
+          "select": 2336,
+          "save": 750,
+          "savePercent": 0.32,
+          "editorFavorite": 50
+        },
+        {
+          "rank": 4,
+          "title": "260105_winterangeldoodle27_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 1646,
+          "save": 703,
+          "savePercent": 0.43,
+          "editorFavorite": 22
+        },
+        {
+          "rank": 5,
+          "title": "251208_ChristmasDotArt06_pro",
+          "categories": "251208_ChristmasDotArt_pro",
+          "thumbnail": "/new-stamp-assets/251208_ChristmasDotArt_pro.png",
+          "select": 1000,
+          "save": 598,
+          "savePercent": 0.6,
+          "editorFavorite": 18
+        },
+        {
+          "rank": 6,
+          "title": "251208_CrayonDecoratingSticker08_pro",
+          "categories": "251208_CrayonDecoratingSticker_pro",
+          "thumbnail": "/new-stamp-assets/251208_CrayonDecoratingSticker_pro.png",
+          "select": 1010,
+          "save": 571,
+          "savePercent": 0.57,
+          "editorFavorite": 27
+        },
+        {
+          "rank": 7,
+          "title": "251208_ChristmasDotArt12_pro",
+          "categories": "251208_ChristmasDotArt_pro",
+          "thumbnail": "/new-stamp-assets/251208_ChristmasDotArt_pro.png",
+          "select": 756,
+          "save": 526,
+          "savePercent": 0.7,
+          "editorFavorite": 20
+        },
+        {
+          "rank": 8,
+          "title": "260105_winterangeldoodle04_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 835,
+          "save": 431,
+          "savePercent": 0.52,
+          "editorFavorite": 18
+        },
+        {
+          "rank": 9,
+          "title": "251229_pixelpendrawing28_pro",
+          "categories": "251229_pixelpendrawing_pro",
+          "thumbnail": "/new-stamp-assets/251229_pixelpendrawing_pro.png",
+          "select": 1086,
+          "save": 422,
+          "savePercent": 0.39,
+          "editorFavorite": 30
+        },
+        {
+          "rank": 10,
+          "title": "251208_ChristmasDotArt01_pro",
+          "categories": "251208_ChristmasDotArt_pro",
+          "thumbnail": "/new-stamp-assets/251208_ChristmasDotArt_pro.png",
+          "select": 407,
+          "save": 372,
+          "savePercent": 0.91,
+          "editorFavorite": 9
+        },
+        {
+          "rank": 11,
+          "title": "260119_minipaperdoodle05_pro",
+          "categories": "260119_minipaperdoodle_pro",
+          "thumbnail": "/new-stamp-assets/260119_minipaperdoodle_pro.png",
+          "select": 772,
+          "save": 351,
+          "savePercent": 0.45,
+          "editorFavorite": 8
+        },
+        {
+          "rank": 12,
+          "title": "260126_circlegrainblur19_pro",
+          "categories": "260126_circlegrainblur_pro",
+          "thumbnail": "/new-stamp-assets/260126_circlegrainblur_pro.png",
+          "select": 1563,
+          "save": 351,
+          "savePercent": 0.22,
+          "editorFavorite": 27
+        },
+        {
+          "rank": 13,
+          "title": "250602_Pixelblurascii06_pro",
+          "categories": "250602_pixelblurascii_pro",
+          "thumbnail": "/new-stamp-assets/250602_pixelblurascii_pro.png",
+          "select": 106,
+          "save": 340,
+          "savePercent": 3.21,
+          "editorFavorite": 11
+        },
+        {
+          "rank": 14,
+          "title": "260105_winterangeldoodle17_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 589,
+          "save": 334,
+          "savePercent": 0.57,
+          "editorFavorite": 14
+        },
+        {
+          "rank": 15,
+          "title": "260105_winterangeldoodle26_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 463,
+          "save": 314,
+          "savePercent": 0.68,
+          "editorFavorite": 10
+        },
+        {
+          "rank": 16,
+          "title": "250428_pixelsimpleart23_pro",
+          "categories": "250428_pixelsimpleart_pro",
+          "thumbnail": "/new-stamp-assets/250428_pixelsimpleart_pro.png",
+          "select": 676,
+          "save": 301,
+          "savePercent": 0.45,
+          "editorFavorite": 21
+        },
+        {
+          "rank": 17,
+          "title": "260119_minipaperdoodle04_pro",
+          "categories": "260119_minipaperdoodle_pro",
+          "thumbnail": "/new-stamp-assets/260119_minipaperdoodle_pro.png",
+          "select": 615,
+          "save": 295,
+          "savePercent": 0.48,
+          "editorFavorite": 4
+        },
+        {
+          "rank": 18,
+          "title": "260105_winterangeldoodle10_pro",
+          "categories": "260105_winterangeldoodle_pro",
+          "thumbnail": "/new-stamp-assets/260105_winterangeldoodle_pro.png",
+          "select": 570,
+          "save": 294,
+          "savePercent": 0.52,
+          "editorFavorite": 18
+        },
+        {
+          "rank": 19,
+          "title": "251124_MingleBlurSketch11_pro",
+          "categories": "251124_MingleBlurSketch_pro",
+          "thumbnail": "/new-stamp-assets/251124_MingleBlurSketch_pro.png",
+          "select": 579,
+          "save": 292,
+          "savePercent": 0.5,
+          "editorFavorite": 13
+        },
+        {
+          "rank": 20,
+          "title": "250811_whiteblurascii02_pro",
+          "categories": "250811_whiteblurascii_pro",
+          "thumbnail": "/new-stamp-assets/250811_whiteblurascii_pro.png",
+          "select": 318,
+          "save": 274,
+          "savePercent": 0.86,
+          "editorFavorite": 21
+        }
+      ]
+    }
+  ]
+}

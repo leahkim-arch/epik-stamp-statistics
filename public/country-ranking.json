@@ -1,0 +1,2088 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "countries": [
+        {
+          "country": "KR",
+          "headerRow": 5,
+          "dataStartRow": 6,
+          "stamps": [
+            {
+              "categoryId": "692e82863f9a021662d72cec",
+              "categoryName": "251202_SimpleCalendar_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 123,
+              "save": 10421,
+              "subscribe": 21,
+              "savePercent": 84.72,
+              "rank": 1
+            },
+            {
+              "categoryId": "692e7a903f9a021662d7270c",
+              "categoryName": "251202_handdrawingcalendar_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1993,
+              "save": 7819,
+              "subscribe": 48,
+              "savePercent": 3.92,
+              "rank": 2
+            },
+            {
+              "categoryId": "6929589666c263493bec5d08",
+              "categoryName": "251128_blurshapemosaic",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 15567,
+              "save": 7255,
+              "subscribe": 0,
+              "savePercent": 0.47,
+              "rank": 3
+            },
+            {
+              "categoryId": "6874915e7ab7842905d421ba",
+              "categoryName": "250714_blurshape",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 6701,
+              "save": 3740,
+              "subscribe": 0,
+              "savePercent": 0.56,
+              "rank": 4
+            },
+            {
+              "categoryId": "69363c1e98c7fa4120ab1c8f",
+              "categoryName": "251208_CrayonDecoratingSticker_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 5737,
+              "save": 2932,
+              "subscribe": 30,
+              "savePercent": 0.51,
+              "rank": 5
+            },
+            {
+              "categoryId": "6951eebcad62e456bde8e780",
+              "categoryName": "251229_pixelpendrawing_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 7315,
+              "save": 2600,
+              "subscribe": 29,
+              "savePercent": 0.36,
+              "rank": 6
+            },
+            {
+              "categoryId": "61663d20a745e9475e1fcd56",
+              "categoryName": "200902_polaroid",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1008,
+              "save": 2547,
+              "subscribe": 0,
+              "savePercent": 2.53,
+              "rank": 7
+            },
+            {
+              "categoryId": "6372f81f219344440a547d8c",
+              "categoryName": "221111_emotiondoodle",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 4768,
+              "save": 2512,
+              "subscribe": 0,
+              "savePercent": 0.53,
+              "rank": 8
+            },
+            {
+              "categoryId": "6226f34f9a098270de4203e2",
+              "categoryName": "220216_facetoon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 4860,
+              "save": 2507,
+              "subscribe": 0,
+              "savePercent": 0.52,
+              "rank": 9
+            },
+            {
+              "categoryId": "6253fa7f939e32598dbd2d64",
+              "categoryName": "220404_blackwhitecrayon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 4153,
+              "save": 2173,
+              "subscribe": 0,
+              "savePercent": 0.52,
+              "rank": 10
+            },
+            {
+              "categoryId": "695763d5e77b1b716cd6b8cb",
+              "categoryName": "260102_newyearlabel_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 8306,
+              "save": 1978,
+              "subscribe": 27,
+              "savePercent": 0.24,
+              "rank": 11
+            },
+            {
+              "categoryId": "6858e506e2c2924988888e3d",
+              "categoryName": "250623_faceemoticon",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 3411,
+              "save": 1864,
+              "subscribe": 0,
+              "savePercent": 0.55,
+              "rank": 12
+            },
+            {
+              "categoryId": "692d51aa3f9a021662d6b66d",
+              "categoryName": "251201_GothicCalendar_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 81,
+              "save": 1807,
+              "subscribe": 12,
+              "savePercent": 22.31,
+              "rank": 13
+            },
+            {
+              "categoryId": "6682459fdc0a432d76c592b4",
+              "categoryName": "240627_pinkcrayon_asia",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2953,
+              "save": 1789,
+              "subscribe": 0,
+              "savePercent": 0.61,
+              "rank": 14
+            },
+            {
+              "categoryId": "66824432dc0a432d76c592b3",
+              "categoryName": "240627_pinkcrayon_all",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2953,
+              "save": 1789,
+              "subscribe": 0,
+              "savePercent": 0.61,
+              "rank": 15
+            }
+          ]
+        },
+        {
+          "country": "JP",
+          "headerRow": 23,
+          "dataStartRow": 24,
+          "stamps": [
+            {
+              "categoryId": "6929589666c263493bec5d08",
+              "categoryName": "251128_blurshapemosaic",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 22786,
+              "save": 11446,
+              "subscribe": 0,
+              "savePercent": 0.5,
+              "rank": 1
+            },
+            {
+              "categoryId": "6226f34f9a098270de4203e2",
+              "categoryName": "220216_facetoon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 12997,
+              "save": 8865,
+              "subscribe": 0,
+              "savePercent": 0.68,
+              "rank": 2
+            },
+            {
+              "categoryId": "6372f81f219344440a547d8c",
+              "categoryName": "221111_emotiondoodle",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 12619,
+              "save": 8551,
+              "subscribe": 0,
+              "savePercent": 0.68,
+              "rank": 3
+            },
+            {
+              "categoryId": "6874915e7ab7842905d421ba",
+              "categoryName": "250714_blurshape",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 6625,
+              "save": 3508,
+              "subscribe": 0,
+              "savePercent": 0.53,
+              "rank": 4
+            },
+            {
+              "categoryId": "6177683839dae06d376c3217",
+              "categoryName": "210909_purikura",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 4264,
+              "save": 1932,
+              "subscribe": 0,
+              "savePercent": 0.45,
+              "rank": 5
+            },
+            {
+              "categoryId": "67b2a14d6352906635328aa1",
+              "categoryName": "250217_furryhatanimal",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 3964,
+              "save": 1798,
+              "subscribe": 0,
+              "savePercent": 0.45,
+              "rank": 6
+            },
+            {
+              "categoryId": "621c9a7b9a098270de4202be",
+              "categoryName": "220221_ryousan",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 2982,
+              "save": 1524,
+              "subscribe": 0,
+              "savePercent": 0.51,
+              "rank": 7
+            },
+            {
+              "categoryId": "632133f4747cb12d0e0cd279",
+              "categoryName": "220603_igframe",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 2750,
+              "save": 1479,
+              "subscribe": 0,
+              "savePercent": 0.54,
+              "rank": 8
+            },
+            {
+              "categoryId": "693fa5385f59d174fe412e8a",
+              "categoryName": "251215_bonbonsticker",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2610,
+              "save": 1180,
+              "subscribe": 0,
+              "savePercent": 0.45,
+              "rank": 9
+            },
+            {
+              "categoryId": "693f9b415f59d174fe412e72",
+              "categoryName": "251215_dotsilhouettenewyear_pro_jp",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2837,
+              "save": 1022,
+              "subscribe": 12,
+              "savePercent": 0.36,
+              "rank": 10
+            },
+            {
+              "categoryId": "6682459fdc0a432d76c592b4",
+              "categoryName": "240627_pinkcrayon_asia",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2112,
+              "save": 1015,
+              "subscribe": 0,
+              "savePercent": 0.48,
+              "rank": 11
+            },
+            {
+              "categoryId": "66824432dc0a432d76c592b3",
+              "categoryName": "240627_pinkcrayon_all",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2112,
+              "save": 1015,
+              "subscribe": 0,
+              "savePercent": 0.48,
+              "rank": 12
+            },
+            {
+              "categoryId": "611b2c0528a1fb6b630d7f90",
+              "categoryName": "210809_emojipink",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1451,
+              "save": 1008,
+              "subscribe": 0,
+              "savePercent": 0.69,
+              "rank": 13
+            },
+            {
+              "categoryId": "61663d20a745e9475e1fcd56",
+              "categoryName": "200902_polaroid",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 550,
+              "save": 975,
+              "subscribe": 0,
+              "savePercent": 1.77,
+              "rank": 14
+            },
+            {
+              "categoryId": "68b53b00ee05c4501d88fca2",
+              "categoryName": "250901_starsticker",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 964,
+              "save": 950,
+              "subscribe": 0,
+              "savePercent": 0.99,
+              "rank": 15
+            }
+          ]
+        },
+        {
+          "country": "Non Asia",
+          "headerRow": 41,
+          "dataStartRow": 42,
+          "stamps": [
+            {
+              "categoryId": "61663d20a745e9475e1fcd56",
+              "categoryName": "200902_polaroid",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1233,
+              "save": 1655,
+              "subscribe": 0,
+              "savePercent": 1.34,
+              "rank": 1
+            },
+            {
+              "categoryId": "6874915e7ab7842905d421ba",
+              "categoryName": "250714_blurshape",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1921,
+              "save": 1134,
+              "subscribe": 0,
+              "savePercent": 0.59,
+              "rank": 2
+            },
+            {
+              "categoryId": "6682459fdc0a432d76c592b4",
+              "categoryName": "240627_pinkcrayon_asia",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1339,
+              "save": 918,
+              "subscribe": 0,
+              "savePercent": 0.69,
+              "rank": 3
+            },
+            {
+              "categoryId": "66824432dc0a432d76c592b3",
+              "categoryName": "240627_pinkcrayon_all",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1339,
+              "save": 918,
+              "subscribe": 0,
+              "savePercent": 0.69,
+              "rank": 4
+            },
+            {
+              "categoryId": "60407e7b9043e86f812a749b",
+              "categoryName": "210111_redlip",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 972,
+              "save": 857,
+              "subscribe": 0,
+              "savePercent": 0.88,
+              "rank": 5
+            },
+            {
+              "categoryId": "611b2c0528a1fb6b630d7f90",
+              "categoryName": "210809_emojipink",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1324,
+              "save": 807,
+              "subscribe": 0,
+              "savePercent": 0.61,
+              "rank": 6
+            },
+            {
+              "categoryId": "6253fa7f939e32598dbd2d64",
+              "categoryName": "220404_blackwhitecrayon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1372,
+              "save": 762,
+              "subscribe": 0,
+              "savePercent": 0.56,
+              "rank": 7
+            },
+            {
+              "categoryId": "6929589666c263493bec5d08",
+              "categoryName": "251128_blurshapemosaic",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1479,
+              "save": 760,
+              "subscribe": 0,
+              "savePercent": 0.51,
+              "rank": 8
+            },
+            {
+              "categoryId": "612e026073eaf2020c963259",
+              "categoryName": "210831_emojiyellow",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1092,
+              "save": 685,
+              "subscribe": 0,
+              "savePercent": 0.63,
+              "rank": 9
+            },
+            {
+              "categoryId": "61cab9cd3040a711a9791de4",
+              "categoryName": "211222_22tiger",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 27,
+              "save": 543,
+              "subscribe": 0,
+              "savePercent": 20.11,
+              "rank": 10
+            },
+            {
+              "categoryId": "62fb40ded48c0a58f355d826",
+              "categoryName": "220729_rippedpaper",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 379,
+              "save": 540,
+              "subscribe": 0,
+              "savePercent": 1.42,
+              "rank": 11
+            },
+            {
+              "categoryId": "6111f2518fd75f0abbfeb958",
+              "categoryName": "210809_emojired",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 813,
+              "save": 522,
+              "subscribe": 0,
+              "savePercent": 0.64,
+              "rank": 12
+            },
+            {
+              "categoryId": "6833d427168bfb399d9e456b",
+              "categoryName": "250526_pinkforest",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 908,
+              "save": 476,
+              "subscribe": 0,
+              "savePercent": 0.52,
+              "rank": 13
+            },
+            {
+              "categoryId": "65cb2b41c82e3d3cf5240056",
+              "categoryName": "20240131_tornpaper",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 34,
+              "save": 434,
+              "subscribe": 0,
+              "savePercent": 12.76,
+              "rank": 14
+            },
+            {
+              "categoryId": "6226f34f9a098270de4203e2",
+              "categoryName": "220216_facetoon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 926,
+              "save": 427,
+              "subscribe": 0,
+              "savePercent": 0.46,
+              "rank": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "countries": [
+        {
+          "country": "KR",
+          "headerRow": 60,
+          "dataStartRow": 61,
+          "stamps": [
+            {
+              "categoryId": "6929589666c263493bec5d08",
+              "categoryName": "251128_blurshapemosaic",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 13467,
+              "save": 6395,
+              "subscribe": 0,
+              "savePercent": 0.47,
+              "rank": 1
+            },
+            {
+              "categoryId": "695b23bde77b1b716cd83f7e",
+              "categoryName": "260105_winterangeldoodle_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 9725,
+              "save": 4798,
+              "subscribe": 56,
+              "savePercent": 0.49,
+              "rank": 2
+            },
+            {
+              "categoryId": "6874915e7ab7842905d421ba",
+              "categoryName": "250714_blurshape",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 6011,
+              "save": 3466,
+              "subscribe": 0,
+              "savePercent": 0.58,
+              "rank": 3
+            },
+            {
+              "categoryId": "692e82863f9a021662d72cec",
+              "categoryName": "251202_SimpleCalendar_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 66,
+              "save": 3079,
+              "subscribe": 6,
+              "savePercent": 46.65,
+              "rank": 4
+            },
+            {
+              "categoryId": "692e7a903f9a021662d7270c",
+              "categoryName": "251202_handdrawingcalendar_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 971,
+              "save": 2845,
+              "subscribe": 8,
+              "savePercent": 2.93,
+              "rank": 5
+            },
+            {
+              "categoryId": "6372f81f219344440a547d8c",
+              "categoryName": "221111_emotiondoodle",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 4645,
+              "save": 2561,
+              "subscribe": 0,
+              "savePercent": 0.55,
+              "rank": 6
+            },
+            {
+              "categoryId": "6226f34f9a098270de4203e2",
+              "categoryName": "220216_facetoon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 4688,
+              "save": 2557,
+              "subscribe": 0,
+              "savePercent": 0.55,
+              "rank": 7
+            },
+            {
+              "categoryId": "69363c1e98c7fa4120ab1c8f",
+              "categoryName": "251208_CrayonDecoratingSticker_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 4113,
+              "save": 2027,
+              "subscribe": 23,
+              "savePercent": 0.49,
+              "rank": 8
+            },
+            {
+              "categoryId": "6253fa7f939e32598dbd2d64",
+              "categoryName": "220404_blackwhitecrayon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 4101,
+              "save": 1916,
+              "subscribe": 0,
+              "savePercent": 0.47,
+              "rank": 9
+            },
+            {
+              "categoryId": "6964663a9d738c2f150c2ef1",
+              "categoryName": "260112_pixelkaomoji",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 4616,
+              "save": 1843,
+              "subscribe": 0,
+              "savePercent": 0.4,
+              "rank": 10
+            },
+            {
+              "categoryId": "6858e506e2c2924988888e3d",
+              "categoryName": "250623_faceemoticon",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 3127,
+              "save": 1691,
+              "subscribe": 0,
+              "savePercent": 0.54,
+              "rank": 11
+            },
+            {
+              "categoryId": "6682459fdc0a432d76c592b4",
+              "categoryName": "240627_pinkcrayon_asia",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2800,
+              "save": 1660,
+              "subscribe": 0,
+              "savePercent": 0.59,
+              "rank": 12
+            },
+            {
+              "categoryId": "66824432dc0a432d76c592b3",
+              "categoryName": "240627_pinkcrayon_all",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2800,
+              "save": 1660,
+              "subscribe": 0,
+              "savePercent": 0.59,
+              "rank": 13
+            },
+            {
+              "categoryId": "61663d20a745e9475e1fcd56",
+              "categoryName": "200902_polaroid",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 968,
+              "save": 1559,
+              "subscribe": 0,
+              "savePercent": 1.61,
+              "rank": 14
+            },
+            {
+              "categoryId": "6951eebcad62e456bde8e780",
+              "categoryName": "251229_pixelpendrawing_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 3921,
+              "save": 1417,
+              "subscribe": 15,
+              "savePercent": 0.36,
+              "rank": 15
+            }
+          ]
+        },
+        {
+          "country": "JP",
+          "headerRow": 78,
+          "dataStartRow": 79,
+          "stamps": [
+            {
+              "categoryId": "6226f34f9a098270de4203e2",
+              "categoryName": "220216_facetoon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 19217,
+              "save": 12760,
+              "subscribe": 0,
+              "savePercent": 0.66,
+              "rank": 1
+            },
+            {
+              "categoryId": "6372f81f219344440a547d8c",
+              "categoryName": "221111_emotiondoodle",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 18939,
+              "save": 12491,
+              "subscribe": 0,
+              "savePercent": 0.66,
+              "rank": 2
+            },
+            {
+              "categoryId": "6929589666c263493bec5d08",
+              "categoryName": "251128_blurshapemosaic",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 23531,
+              "save": 11503,
+              "subscribe": 0,
+              "savePercent": 0.49,
+              "rank": 3
+            },
+            {
+              "categoryId": "6874915e7ab7842905d421ba",
+              "categoryName": "250714_blurshape",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 6596,
+              "save": 3569,
+              "subscribe": 0,
+              "savePercent": 0.54,
+              "rank": 4
+            },
+            {
+              "categoryId": "67b2a14d6352906635328aa1",
+              "categoryName": "250217_furryhatanimal",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 5496,
+              "save": 2428,
+              "subscribe": 0,
+              "savePercent": 0.44,
+              "rank": 5
+            },
+            {
+              "categoryId": "6964663a9d738c2f150c2ef1",
+              "categoryName": "260112_pixelkaomoji",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 4952,
+              "save": 1938,
+              "subscribe": 0,
+              "savePercent": 0.39,
+              "rank": 6
+            },
+            {
+              "categoryId": "6177683839dae06d376c3217",
+              "categoryName": "210909_purikura",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 4310,
+              "save": 1899,
+              "subscribe": 0,
+              "savePercent": 0.44,
+              "rank": 7
+            },
+            {
+              "categoryId": "621c9a7b9a098270de4202be",
+              "categoryName": "220221_ryousan",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 3207,
+              "save": 1648,
+              "subscribe": 0,
+              "savePercent": 0.51,
+              "rank": 8
+            },
+            {
+              "categoryId": "632133f4747cb12d0e0cd279",
+              "categoryName": "220603_igframe",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 2829,
+              "save": 1512,
+              "subscribe": 0,
+              "savePercent": 0.53,
+              "rank": 9
+            },
+            {
+              "categoryId": "693fa5385f59d174fe412e8a",
+              "categoryName": "251215_bonbonsticker",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2474,
+              "save": 1084,
+              "subscribe": 0,
+              "savePercent": 0.44,
+              "rank": 10
+            },
+            {
+              "categoryId": "68b53b00ee05c4501d88fca2",
+              "categoryName": "250901_starsticker",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 887,
+              "save": 1015,
+              "subscribe": 0,
+              "savePercent": 1.14,
+              "rank": 11
+            },
+            {
+              "categoryId": "61663d20a745e9475e1fcd56",
+              "categoryName": "200902_polaroid",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 551,
+              "save": 1005,
+              "subscribe": 0,
+              "savePercent": 1.82,
+              "rank": 12
+            },
+            {
+              "categoryId": "6682459fdc0a432d76c592b4",
+              "categoryName": "240627_pinkcrayon_asia",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2063,
+              "save": 964,
+              "subscribe": 0,
+              "savePercent": 0.47,
+              "rank": 13
+            },
+            {
+              "categoryId": "66824432dc0a432d76c592b3",
+              "categoryName": "240627_pinkcrayon_all",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2063,
+              "save": 964,
+              "subscribe": 0,
+              "savePercent": 0.47,
+              "rank": 14
+            },
+            {
+              "categoryId": "620dfb0a9a098270de420175",
+              "categoryName": "220215_purideco",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 2341,
+              "save": 945,
+              "subscribe": 0,
+              "savePercent": 0.4,
+              "rank": 15
+            }
+          ]
+        },
+        {
+          "country": "Non Asia",
+          "headerRow": 96,
+          "dataStartRow": 97,
+          "stamps": [
+            {
+              "categoryId": "61663d20a745e9475e1fcd56",
+              "categoryName": "200902_polaroid",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1235,
+              "save": 1499,
+              "subscribe": 0,
+              "savePercent": 1.21,
+              "rank": 1
+            },
+            {
+              "categoryId": "6874915e7ab7842905d421ba",
+              "categoryName": "250714_blurshape",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1761,
+              "save": 1105,
+              "subscribe": 0,
+              "savePercent": 0.63,
+              "rank": 2
+            },
+            {
+              "categoryId": "6682459fdc0a432d76c592b4",
+              "categoryName": "240627_pinkcrayon_asia",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1506,
+              "save": 953,
+              "subscribe": 0,
+              "savePercent": 0.63,
+              "rank": 3
+            },
+            {
+              "categoryId": "66824432dc0a432d76c592b3",
+              "categoryName": "240627_pinkcrayon_all",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1506,
+              "save": 953,
+              "subscribe": 0,
+              "savePercent": 0.63,
+              "rank": 4
+            },
+            {
+              "categoryId": "60407e7b9043e86f812a749b",
+              "categoryName": "210111_redlip",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 951,
+              "save": 898,
+              "subscribe": 0,
+              "savePercent": 0.94,
+              "rank": 5
+            },
+            {
+              "categoryId": "611b2c0528a1fb6b630d7f90",
+              "categoryName": "210809_emojipink",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1187,
+              "save": 721,
+              "subscribe": 0,
+              "savePercent": 0.61,
+              "rank": 6
+            },
+            {
+              "categoryId": "6253fa7f939e32598dbd2d64",
+              "categoryName": "220404_blackwhitecrayon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1223,
+              "save": 698,
+              "subscribe": 0,
+              "savePercent": 0.57,
+              "rank": 7
+            },
+            {
+              "categoryId": "6929589666c263493bec5d08",
+              "categoryName": "251128_blurshapemosaic",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1367,
+              "save": 665,
+              "subscribe": 0,
+              "savePercent": 0.49,
+              "rank": 8
+            },
+            {
+              "categoryId": "612e026073eaf2020c963259",
+              "categoryName": "210831_emojiyellow",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 977,
+              "save": 616,
+              "subscribe": 0,
+              "savePercent": 0.63,
+              "rank": 9
+            },
+            {
+              "categoryId": "61cab9cd3040a711a9791de4",
+              "categoryName": "211222_22tiger",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 38,
+              "save": 513,
+              "subscribe": 0,
+              "savePercent": 13.5,
+              "rank": 10
+            },
+            {
+              "categoryId": "6111f2518fd75f0abbfeb958",
+              "categoryName": "210809_emojired",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 814,
+              "save": 499,
+              "subscribe": 0,
+              "savePercent": 0.61,
+              "rank": 11
+            },
+            {
+              "categoryId": "6226f34f9a098270de4203e2",
+              "categoryName": "220216_facetoon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1020,
+              "save": 483,
+              "subscribe": 0,
+              "savePercent": 0.47,
+              "rank": 12
+            },
+            {
+              "categoryId": "62fb40ded48c0a58f355d826",
+              "categoryName": "220729_rippedpaper",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 365,
+              "save": 481,
+              "subscribe": 0,
+              "savePercent": 1.32,
+              "rank": 13
+            },
+            {
+              "categoryId": "6833d427168bfb399d9e456b",
+              "categoryName": "250526_pinkforest",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 802,
+              "save": 423,
+              "subscribe": 0,
+              "savePercent": 0.53,
+              "rank": 14
+            },
+            {
+              "categoryId": "686b39b476bf8b048ce3101c",
+              "categoryName": "250707_simplescribble",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 761,
+              "save": 403,
+              "subscribe": 0,
+              "savePercent": 0.53,
+              "rank": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "countries": [
+        {
+          "country": "KR",
+          "headerRow": 115,
+          "dataStartRow": 116,
+          "stamps": [
+            {
+              "categoryId": "6929589666c263493bec5d08",
+              "categoryName": "251128_blurshapemosaic",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 39008,
+              "save": 19287,
+              "subscribe": 0,
+              "savePercent": 0.49,
+              "rank": 1
+            },
+            {
+              "categoryId": "6226f34f9a098270de4203e2",
+              "categoryName": "220216_facetoon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 18439,
+              "save": 11644,
+              "subscribe": 0,
+              "savePercent": 0.63,
+              "rank": 2
+            },
+            {
+              "categoryId": "6372f81f219344440a547d8c",
+              "categoryName": "221111_emotiondoodle",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 17817,
+              "save": 11264,
+              "subscribe": 0,
+              "savePercent": 0.63,
+              "rank": 3
+            },
+            {
+              "categoryId": "6874915e7ab7842905d421ba",
+              "categoryName": "250714_blurshape",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 16585,
+              "save": 10742,
+              "subscribe": 0,
+              "savePercent": 0.65,
+              "rank": 4
+            },
+            {
+              "categoryId": "6964663a9d738c2f150c2ef1",
+              "categoryName": "260112_pixelkaomoji",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 23288,
+              "save": 10278,
+              "subscribe": 0,
+              "savePercent": 0.44,
+              "rank": 5
+            },
+            {
+              "categoryId": "6682459fdc0a432d76c592b4",
+              "categoryName": "240627_pinkcrayon_asia",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 8108,
+              "save": 5367,
+              "subscribe": 0,
+              "savePercent": 0.66,
+              "rank": 6
+            },
+            {
+              "categoryId": "66824432dc0a432d76c592b3",
+              "categoryName": "240627_pinkcrayon_all",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 8108,
+              "save": 5367,
+              "subscribe": 0,
+              "savePercent": 0.66,
+              "rank": 7
+            },
+            {
+              "categoryId": "695b23bde77b1b716cd83f7e",
+              "categoryName": "260105_winterangeldoodle_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 10519,
+              "save": 5147,
+              "subscribe": 173,
+              "savePercent": 0.49,
+              "rank": 8
+            },
+            {
+              "categoryId": "61663d20a745e9475e1fcd56",
+              "categoryName": "200902_polaroid",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 3467,
+              "save": 4222,
+              "subscribe": 0,
+              "savePercent": 1.22,
+              "rank": 9
+            },
+            {
+              "categoryId": "6253fa7f939e32598dbd2d64",
+              "categoryName": "220404_blackwhitecrayon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 8050,
+              "save": 4114,
+              "subscribe": 0,
+              "savePercent": 0.51,
+              "rank": 10
+            },
+            {
+              "categoryId": "686b39b476bf8b048ce3101c",
+              "categoryName": "250707_simplescribble",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 5125,
+              "save": 3358,
+              "subscribe": 0,
+              "savePercent": 0.66,
+              "rank": 11
+            },
+            {
+              "categoryId": "6858e506e2c2924988888e3d",
+              "categoryName": "250623_faceemoticon",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 5684,
+              "save": 2981,
+              "subscribe": 0,
+              "savePercent": 0.52,
+              "rank": 12
+            },
+            {
+              "categoryId": "6890476784ba271591998f53",
+              "categoryName": "250804_coloredscribble",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 4675,
+              "save": 2676,
+              "subscribe": 0,
+              "savePercent": 0.57,
+              "rank": 13
+            },
+            {
+              "categoryId": "6177683839dae06d376c3217",
+              "categoryName": "210909_purikura",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 6119,
+              "save": 2628,
+              "subscribe": 0,
+              "savePercent": 0.43,
+              "rank": 14
+            },
+            {
+              "categoryId": "692e82863f9a021662d72cec",
+              "categoryName": "251202_SimpleCalendar_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 53,
+              "save": 2586,
+              "subscribe": 0,
+              "savePercent": 48.79,
+              "rank": 15
+            }
+          ]
+        },
+        {
+          "country": "JP",
+          "headerRow": 133,
+          "dataStartRow": 134,
+          "stamps": [
+            {
+              "categoryId": "6929589666c263493bec5d08",
+              "categoryName": "251128_blurshapemosaic",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 19747,
+              "save": 10038,
+              "subscribe": 0,
+              "savePercent": 0.51,
+              "rank": 1
+            },
+            {
+              "categoryId": "6226f34f9a098270de4203e2",
+              "categoryName": "220216_facetoon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 11966,
+              "save": 8254,
+              "subscribe": 0,
+              "savePercent": 0.69,
+              "rank": 2
+            },
+            {
+              "categoryId": "6372f81f219344440a547d8c",
+              "categoryName": "221111_emotiondoodle",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 11688,
+              "save": 7992,
+              "subscribe": 0,
+              "savePercent": 0.68,
+              "rank": 3
+            },
+            {
+              "categoryId": "6964663a9d738c2f150c2ef1",
+              "categoryName": "260112_pixelkaomoji",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 8719,
+              "save": 3648,
+              "subscribe": 0,
+              "savePercent": 0.42,
+              "rank": 4
+            },
+            {
+              "categoryId": "6874915e7ab7842905d421ba",
+              "categoryName": "250714_blurshape",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 6012,
+              "save": 3431,
+              "subscribe": 0,
+              "savePercent": 0.57,
+              "rank": 5
+            },
+            {
+              "categoryId": "6177683839dae06d376c3217",
+              "categoryName": "210909_purikura",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 4238,
+              "save": 1898,
+              "subscribe": 0,
+              "savePercent": 0.45,
+              "rank": 6
+            },
+            {
+              "categoryId": "67b2a14d6352906635328aa1",
+              "categoryName": "250217_furryhatanimal",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 4199,
+              "save": 1898,
+              "subscribe": 0,
+              "savePercent": 0.45,
+              "rank": 7
+            },
+            {
+              "categoryId": "621c9a7b9a098270de4202be",
+              "categoryName": "220221_ryousan",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 3089,
+              "save": 1578,
+              "subscribe": 0,
+              "savePercent": 0.51,
+              "rank": 8
+            },
+            {
+              "categoryId": "632133f4747cb12d0e0cd279",
+              "categoryName": "220603_igframe",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 2481,
+              "save": 1351,
+              "subscribe": 0,
+              "savePercent": 0.54,
+              "rank": 9
+            },
+            {
+              "categoryId": "693fa5385f59d174fe412e8a",
+              "categoryName": "251215_bonbonsticker",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2070,
+              "save": 954,
+              "subscribe": 0,
+              "savePercent": 0.46,
+              "rank": 10
+            },
+            {
+              "categoryId": "611b2c0528a1fb6b630d7f90",
+              "categoryName": "210809_emojipink",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1247,
+              "save": 880,
+              "subscribe": 0,
+              "savePercent": 0.71,
+              "rank": 11
+            },
+            {
+              "categoryId": "6682459fdc0a432d76c592b4",
+              "categoryName": "240627_pinkcrayon_asia",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1796,
+              "save": 830,
+              "subscribe": 0,
+              "savePercent": 0.46,
+              "rank": 12
+            },
+            {
+              "categoryId": "66824432dc0a432d76c592b3",
+              "categoryName": "240627_pinkcrayon_all",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1796,
+              "save": 830,
+              "subscribe": 0,
+              "savePercent": 0.46,
+              "rank": 13
+            },
+            {
+              "categoryId": "620dfb0a9a098270de420175",
+              "categoryName": "220215_purideco",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 2076,
+              "save": 803,
+              "subscribe": 0,
+              "savePercent": 0.39,
+              "rank": 14
+            },
+            {
+              "categoryId": "696dafee31961a4004221a90",
+              "categoryName": "260119_blurheartstamp",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1783,
+              "save": 798,
+              "subscribe": 0,
+              "savePercent": 0.45,
+              "rank": 15
+            }
+          ]
+        },
+        {
+          "country": "Non Asia",
+          "headerRow": 151,
+          "dataStartRow": 152,
+          "stamps": [
+            {
+              "categoryId": "61663d20a745e9475e1fcd56",
+              "categoryName": "200902_polaroid",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1430,
+              "save": 1598,
+              "subscribe": 0,
+              "savePercent": 1.12,
+              "rank": 1
+            },
+            {
+              "categoryId": "6682459fdc0a432d76c592b4",
+              "categoryName": "240627_pinkcrayon_asia",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2078,
+              "save": 1155,
+              "subscribe": 0,
+              "savePercent": 0.56,
+              "rank": 2
+            },
+            {
+              "categoryId": "66824432dc0a432d76c592b3",
+              "categoryName": "240627_pinkcrayon_all",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2078,
+              "save": 1155,
+              "subscribe": 0,
+              "savePercent": 0.56,
+              "rank": 3
+            },
+            {
+              "categoryId": "60407e7b9043e86f812a749b",
+              "categoryName": "210111_redlip",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1290,
+              "save": 1055,
+              "subscribe": 0,
+              "savePercent": 0.82,
+              "rank": 4
+            },
+            {
+              "categoryId": "6874915e7ab7842905d421ba",
+              "categoryName": "250714_blurshape",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1785,
+              "save": 1037,
+              "subscribe": 0,
+              "savePercent": 0.58,
+              "rank": 5
+            },
+            {
+              "categoryId": "611b2c0528a1fb6b630d7f90",
+              "categoryName": "210809_emojipink",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1320,
+              "save": 818,
+              "subscribe": 0,
+              "savePercent": 0.62,
+              "rank": 6
+            },
+            {
+              "categoryId": "6253fa7f939e32598dbd2d64",
+              "categoryName": "220404_blackwhitecrayon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1300,
+              "save": 698,
+              "subscribe": 0,
+              "savePercent": 0.54,
+              "rank": 7
+            },
+            {
+              "categoryId": "6929589666c263493bec5d08",
+              "categoryName": "251128_blurshapemosaic",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1380,
+              "save": 671,
+              "subscribe": 0,
+              "savePercent": 0.49,
+              "rank": 8
+            },
+            {
+              "categoryId": "612e026073eaf2020c963259",
+              "categoryName": "210831_emojiyellow",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1036,
+              "save": 605,
+              "subscribe": 0,
+              "savePercent": 0.58,
+              "rank": 9
+            },
+            {
+              "categoryId": "6964663a9d738c2f150c2ef1",
+              "categoryName": "260112_pixelkaomoji",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1409,
+              "save": 583,
+              "subscribe": 0,
+              "savePercent": 0.41,
+              "rank": 10
+            },
+            {
+              "categoryId": "61cab9cd3040a711a9791de4",
+              "categoryName": "211222_22tiger",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 25,
+              "save": 532,
+              "subscribe": 0,
+              "savePercent": 21.28,
+              "rank": 11
+            },
+            {
+              "categoryId": "6111f2518fd75f0abbfeb958",
+              "categoryName": "210809_emojired",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 893,
+              "save": 529,
+              "subscribe": 0,
+              "savePercent": 0.59,
+              "rank": 12
+            },
+            {
+              "categoryId": "62fb40ded48c0a58f355d826",
+              "categoryName": "220729_rippedpaper",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 455,
+              "save": 527,
+              "subscribe": 0,
+              "savePercent": 1.16,
+              "rank": 13
+            },
+            {
+              "categoryId": "686b39b476bf8b048ce3101c",
+              "categoryName": "250707_simplescribble",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 791,
+              "save": 462,
+              "subscribe": 0,
+              "savePercent": 0.58,
+              "rank": 14
+            },
+            {
+              "categoryId": "6226f34f9a098270de4203e2",
+              "categoryName": "220216_facetoon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 991,
+              "save": 439,
+              "subscribe": 0,
+              "savePercent": 0.44,
+              "rank": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "countries": [
+        {
+          "country": "KR",
+          "headerRow": 170,
+          "dataStartRow": 171,
+          "stamps": [
+            {
+              "categoryId": "6929589666c263493bec5d08",
+              "categoryName": "251128_blurshapemosaic",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 14244,
+              "save": 6488,
+              "subscribe": 0,
+              "savePercent": 0.46,
+              "rank": 1
+            },
+            {
+              "categoryId": "6874915e7ab7842905d421ba",
+              "categoryName": "250714_blurshape",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 6278,
+              "save": 3661,
+              "subscribe": 0,
+              "savePercent": 0.58,
+              "rank": 2
+            },
+            {
+              "categoryId": "6964663a9d738c2f150c2ef1",
+              "categoryName": "260112_pixelkaomoji",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 8144,
+              "save": 3646,
+              "subscribe": 0,
+              "savePercent": 0.45,
+              "rank": 3
+            },
+            {
+              "categoryId": "695b23bde77b1b716cd83f7e",
+              "categoryName": "260105_winterangeldoodle_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 6900,
+              "save": 3539,
+              "subscribe": 55,
+              "savePercent": 0.51,
+              "rank": 4
+            },
+            {
+              "categoryId": "6372f81f219344440a547d8c",
+              "categoryName": "221111_emotiondoodle",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 4681,
+              "save": 2465,
+              "subscribe": 0,
+              "savePercent": 0.53,
+              "rank": 5
+            },
+            {
+              "categoryId": "6226f34f9a098270de4203e2",
+              "categoryName": "220216_facetoon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 4721,
+              "save": 2445,
+              "subscribe": 0,
+              "savePercent": 0.52,
+              "rank": 6
+            },
+            {
+              "categoryId": "6253fa7f939e32598dbd2d64",
+              "categoryName": "220404_blackwhitecrayon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 4224,
+              "save": 1919,
+              "subscribe": 0,
+              "savePercent": 0.45,
+              "rank": 7
+            },
+            {
+              "categoryId": "6682459fdc0a432d76c592b4",
+              "categoryName": "240627_pinkcrayon_asia",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2729,
+              "save": 1801,
+              "subscribe": 0,
+              "savePercent": 0.66,
+              "rank": 8
+            },
+            {
+              "categoryId": "66824432dc0a432d76c592b3",
+              "categoryName": "240627_pinkcrayon_all",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2729,
+              "save": 1801,
+              "subscribe": 0,
+              "savePercent": 0.66,
+              "rank": 9
+            },
+            {
+              "categoryId": "69363c1e98c7fa4120ab1c8f",
+              "categoryName": "251208_CrayonDecoratingSticker_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 3859,
+              "save": 1781,
+              "subscribe": 31,
+              "savePercent": 0.46,
+              "rank": 10
+            },
+            {
+              "categoryId": "6858e506e2c2924988888e3d",
+              "categoryName": "250623_faceemoticon",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 3275,
+              "save": 1747,
+              "subscribe": 0,
+              "savePercent": 0.53,
+              "rank": 11
+            },
+            {
+              "categoryId": "61e65da99f9c2427a8ed94dc",
+              "categoryName": "220112_iphonepack",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 631,
+              "save": 1734,
+              "subscribe": 0,
+              "savePercent": 2.75,
+              "rank": 12
+            },
+            {
+              "categoryId": "692e7a903f9a021662d7270c",
+              "categoryName": "251202_handdrawingcalendar_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 511,
+              "save": 1565,
+              "subscribe": 26,
+              "savePercent": 3.06,
+              "rank": 13
+            },
+            {
+              "categoryId": "696daf3731961a4004221a8d",
+              "categoryName": "260119_minipaperdoodle_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2621,
+              "save": 1500,
+              "subscribe": 23,
+              "savePercent": 0.57,
+              "rank": 14
+            },
+            {
+              "categoryId": "696dafe731961a4004221a8e",
+              "categoryName": "260119_luckyandhappy_pro",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 4887,
+              "save": 1464,
+              "subscribe": 15,
+              "savePercent": 0.3,
+              "rank": 15
+            }
+          ]
+        },
+        {
+          "country": "JP",
+          "headerRow": 188,
+          "dataStartRow": 189,
+          "stamps": [
+            {
+              "categoryId": "6929589666c263493bec5d08",
+              "categoryName": "251128_blurshapemosaic",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 19094,
+              "save": 9600,
+              "subscribe": 0,
+              "savePercent": 0.5,
+              "rank": 1
+            },
+            {
+              "categoryId": "6226f34f9a098270de4203e2",
+              "categoryName": "220216_facetoon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 11766,
+              "save": 7990,
+              "subscribe": 0,
+              "savePercent": 0.68,
+              "rank": 2
+            },
+            {
+              "categoryId": "6372f81f219344440a547d8c",
+              "categoryName": "221111_emotiondoodle",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 11393,
+              "save": 7723,
+              "subscribe": 0,
+              "savePercent": 0.68,
+              "rank": 3
+            },
+            {
+              "categoryId": "6964663a9d738c2f150c2ef1",
+              "categoryName": "260112_pixelkaomoji",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 8340,
+              "save": 3540,
+              "subscribe": 0,
+              "savePercent": 0.42,
+              "rank": 4
+            },
+            {
+              "categoryId": "6874915e7ab7842905d421ba",
+              "categoryName": "250714_blurshape",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 5946,
+              "save": 3251,
+              "subscribe": 0,
+              "savePercent": 0.55,
+              "rank": 5
+            },
+            {
+              "categoryId": "6177683839dae06d376c3217",
+              "categoryName": "210909_purikura",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 4527,
+              "save": 1945,
+              "subscribe": 0,
+              "savePercent": 0.43,
+              "rank": 6
+            },
+            {
+              "categoryId": "67b2a14d6352906635328aa1",
+              "categoryName": "250217_furryhatanimal",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 3993,
+              "save": 1765,
+              "subscribe": 0,
+              "savePercent": 0.44,
+              "rank": 7
+            },
+            {
+              "categoryId": "621c9a7b9a098270de4202be",
+              "categoryName": "220221_ryousan",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 3103,
+              "save": 1609,
+              "subscribe": 0,
+              "savePercent": 0.52,
+              "rank": 8
+            },
+            {
+              "categoryId": "632133f4747cb12d0e0cd279",
+              "categoryName": "220603_igframe",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 2629,
+              "save": 1434,
+              "subscribe": 0,
+              "savePercent": 0.55,
+              "rank": 9
+            },
+            {
+              "categoryId": "696dafee31961a4004221a90",
+              "categoryName": "260119_blurheartstamp",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 3099,
+              "save": 1418,
+              "subscribe": 0,
+              "savePercent": 0.46,
+              "rank": 10
+            },
+            {
+              "categoryId": "6682459fdc0a432d76c592b4",
+              "categoryName": "240627_pinkcrayon_asia",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2109,
+              "save": 1154,
+              "subscribe": 0,
+              "savePercent": 0.55,
+              "rank": 11
+            },
+            {
+              "categoryId": "66824432dc0a432d76c592b3",
+              "categoryName": "240627_pinkcrayon_all",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2109,
+              "save": 1154,
+              "subscribe": 0,
+              "savePercent": 0.55,
+              "rank": 12
+            },
+            {
+              "categoryId": "6654054947a1690115ff389f",
+              "categoryName": "240522_silversymbol",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1634,
+              "save": 898,
+              "subscribe": 0,
+              "savePercent": 0.55,
+              "rank": 13
+            },
+            {
+              "categoryId": "620dfb0a9a098270de420175",
+              "categoryName": "220215_purideco",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 2219,
+              "save": 897,
+              "subscribe": 0,
+              "savePercent": 0.4,
+              "rank": 14
+            },
+            {
+              "categoryId": "611b2c0528a1fb6b630d7f90",
+              "categoryName": "210809_emojipink",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1320,
+              "save": 892,
+              "subscribe": 0,
+              "savePercent": 0.68,
+              "rank": 15
+            }
+          ]
+        },
+        {
+          "country": "Non Asia",
+          "headerRow": 206,
+          "dataStartRow": 207,
+          "stamps": [
+            {
+              "categoryId": "61663d20a745e9475e1fcd56",
+              "categoryName": "200902_polaroid",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1676,
+              "save": 1665,
+              "subscribe": 0,
+              "savePercent": 0.99,
+              "rank": 1
+            },
+            {
+              "categoryId": "6682459fdc0a432d76c592b4",
+              "categoryName": "240627_pinkcrayon_asia",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2771,
+              "save": 1609,
+              "subscribe": 0,
+              "savePercent": 0.58,
+              "rank": 2
+            },
+            {
+              "categoryId": "66824432dc0a432d76c592b3",
+              "categoryName": "240627_pinkcrayon_all",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2771,
+              "save": 1609,
+              "subscribe": 0,
+              "savePercent": 0.58,
+              "rank": 3
+            },
+            {
+              "categoryId": "60407e7b9043e86f812a749b",
+              "categoryName": "210111_redlip",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1540,
+              "save": 1281,
+              "subscribe": 0,
+              "savePercent": 0.83,
+              "rank": 4
+            },
+            {
+              "categoryId": "6874915e7ab7842905d421ba",
+              "categoryName": "250714_blurshape",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 2010,
+              "save": 1124,
+              "subscribe": 0,
+              "savePercent": 0.56,
+              "rank": 5
+            },
+            {
+              "categoryId": "6253fa7f939e32598dbd2d64",
+              "categoryName": "220404_blackwhitecrayon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1583,
+              "save": 841,
+              "subscribe": 0,
+              "savePercent": 0.53,
+              "rank": 6
+            },
+            {
+              "categoryId": "611b2c0528a1fb6b630d7f90",
+              "categoryName": "210809_emojipink",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1344,
+              "save": 799,
+              "subscribe": 0,
+              "savePercent": 0.59,
+              "rank": 7
+            },
+            {
+              "categoryId": "6929589666c263493bec5d08",
+              "categoryName": "251128_blurshapemosaic",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1565,
+              "save": 730,
+              "subscribe": 0,
+              "savePercent": 0.47,
+              "rank": 8
+            },
+            {
+              "categoryId": "686b39b476bf8b048ce3101c",
+              "categoryName": "250707_simplescribble",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1072,
+              "save": 609,
+              "subscribe": 0,
+              "savePercent": 0.57,
+              "rank": 9
+            },
+            {
+              "categoryId": "612e026073eaf2020c963259",
+              "categoryName": "210831_emojiyellow",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1008,
+              "save": 599,
+              "subscribe": 0,
+              "savePercent": 0.59,
+              "rank": 10
+            },
+            {
+              "categoryId": "6111f2518fd75f0abbfeb958",
+              "categoryName": "210809_emojired",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 916,
+              "save": 558,
+              "subscribe": 0,
+              "savePercent": 0.61,
+              "rank": 11
+            },
+            {
+              "categoryId": "6964663a9d738c2f150c2ef1",
+              "categoryName": "260112_pixelkaomoji",
+              "type": "PACK",
+              "position": "EDIT",
+              "select": 1260,
+              "save": 551,
+              "subscribe": 0,
+              "savePercent": 0.44,
+              "rank": 12
+            },
+            {
+              "categoryId": "61cab9cd3040a711a9791de4",
+              "categoryName": "211222_22tiger",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 33,
+              "save": 534,
+              "subscribe": 0,
+              "savePercent": 16.18,
+              "rank": 13
+            },
+            {
+              "categoryId": "62fb40ded48c0a58f355d826",
+              "categoryName": "220729_rippedpaper",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 527,
+              "save": 502,
+              "subscribe": 0,
+              "savePercent": 0.95,
+              "rank": 14
+            },
+            {
+              "categoryId": "6226f34f9a098270de4203e2",
+              "categoryName": "220216_facetoon",
+              "type": "PACK",
+              "position": "BROWSER",
+              "select": 1048,
+              "save": 445,
+              "subscribe": 0,
+              "savePercent": 0.42,
+              "rank": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
