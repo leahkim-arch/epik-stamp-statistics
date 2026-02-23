@@ -3,6 +3,36 @@
 import { useEffect, useState } from 'react';
 import { Sparkles, TrendingUp } from 'lucide-react';
 
+// basePath를 포함한 썸네일 URL 생성 함수
+const getThumbnailUrl = (thumbnail: string | null): string => {
+  if (!thumbnail) return '';
+  
+  const basePath = '/epik-stamp-statistics';
+  
+  // 외부 URL인 경우 그대로 반환
+  if (thumbnail.startsWith('http')) {
+    return thumbnail;
+  }
+  
+  // 이미 basePath가 포함된 경우 그대로 반환
+  if (thumbnail.startsWith(basePath)) {
+    return thumbnail;
+  }
+  
+  // /thumbnails/ 또는 /new-stamp-assets/로 시작하는 경우 basePath 추가
+  if (thumbnail.startsWith('/thumbnails/') || thumbnail.startsWith('/new-stamp-assets/')) {
+    return `${basePath}${thumbnail}`;
+  }
+  
+  // 상대 경로인 경우 basePath 추가
+  if (thumbnail.startsWith('/')) {
+    return `${basePath}${thumbnail}`;
+  }
+  
+  // 그 외의 경우 basePath와 함께 반환
+  return `${basePath}/${thumbnail}`;
+};
+
 // 메달 아이콘 컴포넌트 - 이모지 스타일 (🥇)
 const MedalIcon = ({ rank }: { rank: number }) => {
   const medalConfig = {
@@ -309,7 +339,7 @@ export default function NewStampPack() {
                     {pack.thumbnail && (
                       <div className="relative w-full aspect-square rounded-xl overflow-hidden bg-gray-800/30 mb-4">
                         <img
-                          src={pack.thumbnail}
+                          src={getThumbnailUrl(pack.thumbnail)}
                           alt={pack.name}
                           className="w-full h-full object-cover"
                           onError={(e) => {
@@ -429,7 +459,7 @@ export default function NewStampPack() {
                     {pkg.thumbnail && (
                       <div className="relative w-full aspect-square rounded-xl overflow-hidden bg-gray-800/30 mb-4">
                         <img
-                          src={pkg.thumbnail}
+                          src={getThumbnailUrl(pkg.thumbnail)}
                           alt={pkg.name}
                           className="w-full h-full object-cover"
                           onError={(e) => {
@@ -482,7 +512,7 @@ export default function NewStampPack() {
                   <div className="relative mb-2">
                     {asset.thumbnail && (
                       <img
-                        src={asset.thumbnail}
+                        src={getThumbnailUrl(asset.thumbnail)}
                         alt={asset.title}
                         className="w-full aspect-square rounded-md object-cover"
                         style={{
