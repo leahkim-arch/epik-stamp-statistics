@@ -162,7 +162,7 @@ export default function PerformanceTab({ searchQuery, onThumbnailUpdate }: Perfo
                 : 'bg-gray-800/50 text-gray-400 border border-gray-700/50 hover:border-gray-600/50'
             }`}
           >
-            1월 합산
+            1월 ALL
           </button>
           {weeklyData.weeks.map((week) => (
             <button

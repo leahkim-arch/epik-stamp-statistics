@@ -55,8 +55,15 @@ export async function POST(request: NextRequest) {
     });
   } catch (error) {
     console.error('업로드 오류:', error);
+    const errorMessage = error instanceof Error ? error.message : '알 수 없는 오류';
+    const isVercel = process.env.VERCEL === '1';
+    
     return NextResponse.json(
-      { error: '파일 업로드 중 오류가 발생했습니다.' },
+      { 
+        error: isVercel 
+          ? 'Vercel 배포 환경에서는 파일 업로드가 제한됩니다. 로컬 개발 환경에서만 사용 가능합니다.'
+          : `파일 업로드 중 오류가 발생했습니다: ${errorMessage}` 
+      },
       { status: 500 }
     );
   }

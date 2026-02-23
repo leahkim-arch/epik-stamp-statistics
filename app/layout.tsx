@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Stamp Performance Dashboard",
-  description: "2026.01 Stamp Performance Analytics Dashboard",
+  title: "EPIK STAMP",
+  description: "2026.01 EPIK Stamp Performance Statistics",
 };
 
 export default function RootLayout({

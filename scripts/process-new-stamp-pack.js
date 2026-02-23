@@ -255,6 +255,75 @@ weekHeaders.forEach((weekHeader, weekIdx) => {
   }
 });
 
+// BEST PACK 재계산: 주차별 데이터를 합산하여 1월 합산 순위 계산
+console.log('\n[3단계] BEST PACK 재계산 (주차별 데이터 합산)');
+
+// 주차별 데이터에서 팩별 합산 데이터 생성
+const weekPackMap = new Map();
+result.weeks.forEach((week) => {
+  week.packages.forEach((pkg) => {
+    const packName = pkg.name;
+    if (!weekPackMap.has(packName)) {
+      weekPackMap.set(packName, {
+        nonSubsSubsSuccess: 0,
+        save: 0
+      });
+    }
+    const weekData = weekPackMap.get(packName);
+    weekData.nonSubsSubsSuccess += pkg.nonSubsSubsSuccess;
+    weekData.save += pkg.save;
+  });
+});
+
+// BEST PACK의 모든 팩에 대해 1월 합산 계산
+// 주차별 데이터에 나타나는 팩도 원본 BEST PACK에서 periods 데이터를 가져와야 함
+const originalBestPackMap = new Map();
+result.bestPack.packs.forEach((pack) => {
+  originalBestPackMap.set(pack.name, pack);
+});
+
+// 주차별 데이터에 있는 팩도 원본 BEST PACK에서 periods 가져오기
+weekPackMap.forEach((weekData, packName) => {
+  const originalPack = originalBestPackMap.get(packName);
+  if (originalPack && originalPack.periods) {
+    // periods 데이터 보존
+    weekData.periods = originalPack.periods;
+  }
+});
+
+// BEST PACK의 모든 팩에 대해 1월 합산 계산
+result.bestPack.packs.forEach((pack) => {
+  const weekData = weekPackMap.get(pack.name);
+  
+  // 주차별 데이터에 있으면 주차별 합산 사용, 없으면 출시주+1주경과 합산 사용
+  if (weekData) {
+    pack.nonSubsSubsSuccess = weekData.nonSubsSubsSuccess;
+    pack.save = weekData.save;
+    // periods 데이터는 원본 유지 (이미 pack에 있음)
+  } else {
+    // 주차별 데이터에 없으면 출시주+1주경과 합산
+    pack.nonSubsSubsSuccess = pack.periods.reduce((sum, p) => sum + p.nonSubsSubsSuccess, 0);
+    pack.save = pack.periods.reduce((sum, p) => sum + p.subsSave, 0);
+  }
+});
+
+// 구독성공 수 기준으로 정렬 (모든 팩 포함)
+const sortedBestPacks = result.bestPack.packs
+  .sort((a, b) => b.nonSubsSubsSuccess - a.nonSubsSubsSuccess)
+  .map((pack, index) => ({
+    ...pack,
+    no: index + 1 // 순위 재할당
+  }));
+
+// BEST PACK 업데이트 (모든 팩 유지)
+result.bestPack.packs = sortedBestPacks;
+
+console.log(`  ✓ BEST PACK ${sortedBestPacks.length}개 재계산 완료`);
+console.log(`  상위 5개:`);
+sortedBestPacks.slice(0, 5).forEach((pack, idx) => {
+  console.log(`    ${idx + 1}. ${pack.name}: 구독성공=${pack.nonSubsSubsSuccess}, Save=${pack.save}`);
+});
+
 // 결과 저장
 const outputPath = path.join(__dirname, '..', 'public', 'new-stamp-pack.json');
 fs.writeFileSync(outputPath, JSON.stringify(result, null, 2), 'utf-8');

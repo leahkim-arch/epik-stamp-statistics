@@ -20,17 +20,28 @@ export default function ThumbnailUploadModal({
 }: ThumbnailUploadModalProps) {
   const [dragActive, setDragActive] = useState(false);
   const [preview, setPreview] = useState<string | null>(null);
+  const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [uploading, setUploading] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   if (!isOpen) return null;
 
-  const handleDrag = (e: DragEvent) => {
+  const handleDragEnter = (e: DragEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    if (e.type === 'dragenter' || e.type === 'dragover') {
-      setDragActive(true);
-    } else if (e.type === 'dragleave') {
+    setDragActive(true);
+  };
+
+  const handleDragOver = (e: DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+  };
+
+  const handleDragLeave = (e: DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    // 자식 요소로 이동하는 경우는 무시
+    if (e.currentTarget === e.target) {
       setDragActive(false);
     }
   };
@@ -64,6 +75,9 @@ export default function ThumbnailUploadModal({
       return;
     }
 
+    // 선택한 파일 저장
+    setSelectedFile(file);
+
     // 미리보기 생성
     const reader = new FileReader();
     reader.onloadend = () => {
@@ -73,14 +87,8 @@ export default function ThumbnailUploadModal({
   };
 
   const handleUpload = async () => {
-    if (!preview) {
+    if (!preview || !selectedFile) {
       alert('이미지를 선택해주세요.');
-      return;
-    }
-
-    const fileInput = fileInputRef.current;
-    if (!fileInput || !fileInput.files || !fileInput.files[0]) {
-      alert('파일을 선택해주세요.');
       return;
     }
 
@@ -88,7 +96,7 @@ export default function ThumbnailUploadModal({
 
     try {
       const formData = new FormData();
-      formData.append('file', fileInput.files[0]);
+      formData.append('file', selectedFile);
       formData.append('stampName', stampName);
 
       const response = await fetch('/api/upload-thumbnail', {
@@ -96,16 +104,23 @@ export default function ThumbnailUploadModal({
         body: formData,
       });
 
+      const data = await response.json();
+
       if (!response.ok) {
-        throw new Error('업로드 실패');
+        const errorMessage = data.error || '업로드 실패';
+        console.error('업로드 오류:', errorMessage, data);
+        alert(`이미지 업로드에 실패했습니다: ${errorMessage}`);
+        throw new Error(errorMessage);
       }
 
-      const data = await response.json();
-      onUploadSuccess(stampName, data.thumbnailUrl);
+      // 타임스탬프를 추가하여 브라우저 캐시 무시하고 즉시 반영
+      const thumbnailUrlWithTimestamp = `${data.thumbnailUrl}?t=${Date.now()}`;
+      onUploadSuccess(stampName, thumbnailUrlWithTimestamp);
       handleClose();
     } catch (error) {
       console.error('업로드 오류:', error);
-      alert('이미지 업로드에 실패했습니다.');
+      const errorMessage = error instanceof Error ? error.message : '알 수 없는 오류';
+      alert(`이미지 업로드에 실패했습니다: ${errorMessage}`);
     } finally {
       setUploading(false);
     }
@@ -113,6 +128,7 @@ export default function ThumbnailUploadModal({
 
   const handleClose = () => {
     setPreview(null);
+    setSelectedFile(null);
     setDragActive(false);
     if (fileInputRef.current) {
       fileInputRef.current.value = '';
@@ -160,9 +176,9 @@ export default function ThumbnailUploadModal({
 
         {/* Upload Area */}
         <div
-          onDragEnter={handleDrag}
-          onDragLeave={handleDrag}
-          onDragOver={handleDrag}
+          onDragEnter={handleDragEnter}
+          onDragLeave={handleDragLeave}
+          onDragOver={handleDragOver}
           onDrop={handleDrop}
           className={`
             border-2 border-dashed rounded-lg p-8 text-center transition-colors
@@ -183,7 +199,11 @@ export default function ThumbnailUploadModal({
               </div>
               <div className="flex gap-2">
                 <button
-                  onClick={() => fileInputRef.current?.click()}
+                  onClick={() => {
+                    setPreview(null);
+                    setSelectedFile(null);
+                    fileInputRef.current?.click();
+                  }}
                   className="flex-1 px-4 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-colors text-sm"
                 >
                   다른 이미지 선택

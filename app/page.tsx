@@ -36,7 +36,7 @@ export default function Home() {
                   }}
                   className="text-6xl font-extrabold mb-2 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent tracking-tight cursor-pointer hover:opacity-80 transition-opacity"
                 >
-                  Stamp Performance Dashboard
+                  EPIK STAMP
                 </h1>
                 <div className="flex items-center gap-3 mt-1">
                   <span className="text-gray-500 text-sm">Statistics</span>
@@ -48,9 +48,9 @@ export default function Home() {
           {/* Tabs */}
           <Tabs
             tabs={[
-              { id: 'performance', label: '📁 Performance' },
+              { id: 'performance', label: '📁 Summary' },
               { id: 'country-ranking', label: '🌏 Country Ranking' },
-              { id: 'new-stamp-pack', label: '✨ New Stamp Pack' }
+              { id: 'new-stamp-pack', label: '✨ Monthly statistics' }
             ]}
             defaultTab="performance"
           >

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { MousePointerClick, Heart, UserPlus, TrendingUp, Edit2 } from 'lucide-react';
+import { MousePointerClick, Heart, UserPlus, TrendingUp, Edit2, Plus } from 'lucide-react';
 import { useAdmin } from '@/contexts/AdminContext';
 import ThumbnailUploadModal from './ThumbnailUploadModal';
 
@@ -61,32 +61,37 @@ export default function StampCard({ stamp, rank, onThumbnailUpdate }: StampCardP
     .replace(/_pro$/, '')
     .trim();
 
-  // 메달 아이콘 컴포넌트 - 플랫 디자인
+  // 메달 아이콘 컴포넌트 - 이모지 스타일 (🥇)
   const MedalIcon = ({ rank }: { rank: number }) => {
     const medalConfig = {
       1: { 
         medalColor: '#FFD700', // 금색
-        ribbonColor: '#EF4444', // 빨간색
+        medalShadow: '#FFA500', // 금색 그림자
+        ribbonColor: '#EF4444', // 빨간색 리본
         textColor: '#FFFFFF'
       },
       2: { 
         medalColor: '#C0C0C0', // 은색
-        ribbonColor: '#3B82F6', // 파란색
+        medalShadow: '#808080', // 은색 그림자
+        ribbonColor: '#3B82F6', // 파란색 리본
         textColor: '#FFFFFF'
       },
       3: { 
         medalColor: '#CD7F32', // 동색
-        ribbonColor: '#10B981', // 초록색
+        medalShadow: '#8B4513', // 동색 그림자
+        ribbonColor: '#10B981', // 초록색 리본
         textColor: '#FFFFFF'
       },
       4: { 
         medalColor: '#CD7F32', // 동색
-        ribbonColor: '#10B981', // 초록색
+        medalShadow: '#8B4513', // 동색 그림자
+        ribbonColor: '#10B981', // 초록색 리본
         textColor: '#FFFFFF'
       },
       5: { 
         medalColor: '#CD7F32', // 동색
-        ribbonColor: '#10B981', // 초록색
+        medalShadow: '#8B4513', // 동색 그림자
+        ribbonColor: '#10B981', // 초록색 리본
         textColor: '#FFFFFF'
       },
     };
@@ -94,44 +99,87 @@ export default function StampCard({ stamp, rank, onThumbnailUpdate }: StampCardP
     const config = medalConfig[rank as keyof typeof medalConfig] || medalConfig[3];
     
     return (
-      <div className="relative flex items-center justify-center" style={{ width: '26px', height: '26px' }}>
-        {/* V자 리본 */}
+      <div className="relative flex items-center justify-center" style={{ width: '36px', height: '40px' }}>
         <svg 
-          className="absolute left-1/2 -translate-x-1/2" 
-          style={{ top: '-8px', width: '16px', height: '10px' }}
-          viewBox="0 0 12 8" 
+          style={{ width: '36px', height: '40px' }}
+          viewBox="0 0 36 40" 
           fill="none" 
           xmlns="http://www.w3.org/2000/svg"
         >
+          {/* 리본 (V자 형태, 메달 위쪽 중앙) */}
           <path 
-            d="M0 8 L6 0 L12 8 Z" 
+            d="M12 8 L18 2 L24 8 L24 12 L18 10 L12 12 Z" 
             fill={config.ribbonColor}
           />
-        </svg>
-        
-        {/* 메달 원형 */}
-        <svg 
-          style={{ width: '26px', height: '26px' }}
-          viewBox="0 0 20 20" 
-          fill="none" 
-          xmlns="http://www.w3.org/2000/svg"
-        >
+          {/* 리본 하이라이트 */}
+          <path 
+            d="M12 8 L18 2 L24 8 L24 10 L18 8 L12 10 Z" 
+            fill="rgba(255, 255, 255, 0.3)"
+          />
+          {/* 리본 그림자 */}
+          <path 
+            d="M12 8 L18 2 L24 8 L24 12 L18 10 L12 12 Z" 
+            fill="rgba(0, 0, 0, 0.2)"
+            transform="translate(0, 1)"
+          />
+          
+          {/* 메달 원형 (이모지 스타일) - 입체감을 위한 그라데이션 */}
+          <defs>
+            <radialGradient id={`medalGradient-${rank}`} cx="50%" cy="30%">
+              <stop offset="0%" stopColor={config.medalColor} stopOpacity="1" />
+              <stop offset="100%" stopColor={config.medalShadow} stopOpacity="1" />
+            </radialGradient>
+          </defs>
+          
+          {/* 메달 그림자 (뒤쪽) */}
           <circle 
-            cx="10" 
-            cy="10" 
+            cx="18" 
+            cy="26" 
+            r="11" 
+            fill="rgba(0, 0, 0, 0.3)"
+            transform="translate(1, 1)"
+          />
+          
+          {/* 메달 원형 */}
+          <circle 
+            cx="18" 
+            cy="25" 
+            r="11" 
+            fill={`url(#medalGradient-${rank})`}
+            stroke="rgba(255, 255, 255, 0.5)"
+            strokeWidth="0.8"
+          />
+          
+          {/* 메달 상단 하이라이트 */}
+          <ellipse 
+            cx="18" 
+            cy="18" 
+            rx="7" 
+            ry="4" 
+            fill="rgba(255, 255, 255, 0.3)"
+          />
+          
+          {/* 메달 내부 테두리 */}
+          <circle 
+            cx="18" 
+            cy="25" 
             r="9" 
-            fill={config.medalColor}
-            stroke="rgba(255, 255, 255, 0.3)"
+            fill="none"
+            stroke="rgba(255, 255, 255, 0.2)"
             strokeWidth="0.5"
           />
+          
+          {/* 숫자 */}
           <text 
-            x="10" 
-            y="14" 
-            fontSize="12" 
+            x="18" 
+            y="29" 
+            fontSize="13" 
             fontWeight="bold" 
             fill={config.textColor}
             textAnchor="middle"
             fontFamily="system-ui, -apple-system, sans-serif"
+            stroke="rgba(0, 0, 0, 0.3)"
+            strokeWidth="0.8"
           >
             {rank}
           </text>
@@ -174,6 +222,7 @@ export default function StampCard({ stamp, rank, onThumbnailUpdate }: StampCardP
           </button>
         )}
         <img
+          key={`${stamp.categoryName}-${currentThumbnail || stamp.thumbnail}`} // key를 추가하여 썸네일 변경 시 이미지 강제 리로드
           src={(() => {
             // 썸네일 URL 생성 로직 - 로컬 썸네일 이미지 우선 사용
             // 업데이트된 썸네일이 있으면 우선 사용
@@ -185,6 +234,7 @@ export default function StampCard({ stamp, rank, onThumbnailUpdate }: StampCardP
             }
             
             // 2. thumbnail 필드 검증 및 사용
+            let finalUrl = '';
             if (thumbnailToUse && typeof thumbnailToUse === 'string') {
               const thumbStr = thumbnailToUse.trim();
               
@@ -199,13 +249,22 @@ export default function StampCard({ stamp, rank, onThumbnailUpdate }: StampCardP
               if ((thumbStr.startsWith('/thumbnails/') || thumbStr.startsWith('http')) && 
                   thumbStr.length > 10 &&
                   !isIdPattern) {
-                return thumbStr;
+                finalUrl = thumbStr;
               }
             }
             
             // 3. CategoryName 기반 로컬 썸네일 경로 생성
-            const cleanName = stamp.categoryName.trim();
-            return `/thumbnails/${cleanName}.png`;
+            if (!finalUrl) {
+              const cleanName = stamp.categoryName.trim();
+              finalUrl = `/thumbnails/${cleanName}.png`;
+            }
+            
+            // 업로드된 썸네일인 경우 타임스탬프 추가하여 캐시 무시
+            if (currentThumbnail && finalUrl.startsWith('/thumbnails/')) {
+              return `${finalUrl}?t=${Date.now()}`;
+            }
+            
+            return finalUrl;
           })()}
           alt={displayName}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -233,19 +292,22 @@ export default function StampCard({ stamp, rank, onThumbnailUpdate }: StampCardP
         {displayName}
       </h3>
 
-      {/* Save% - Main Metric */}
+      {/* Subscribe - Main Metric */}
       <div className="mb-4 p-4 rounded-xl bg-gradient-to-br from-purple-500/15 via-pink-500/10 to-purple-500/15 border border-purple-500/30 group-hover:border-purple-400/40 group-hover:shadow-lg group-hover:shadow-purple-500/20 transition-all">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <TrendingUp size={18} className="text-purple-400" />
+            <UserPlus size={18} className="text-purple-400" />
             <div className="flex flex-col">
-              <span className="text-xs text-gray-300 font-medium">Save%</span>
-              <span className="text-[10px] text-gray-500">(Save/Select)</span>
+              <span className="text-xs text-gray-300 font-medium">Subscribe</span>
+              <span className="text-[10px] text-gray-500">구독자 수</span>
             </div>
           </div>
-          <span className="text-xl font-bold bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">
-            {formatPercent(stamp.savePercent)}
-          </span>
+          <div className="flex items-center gap-1">
+            <Plus size={16} className="text-purple-400" />
+            <span className="text-xl font-bold bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">
+              {formatNumber(stamp.subscribe)}
+            </span>
+          </div>
         </div>
       </div>
 
@@ -266,10 +328,10 @@ export default function StampCard({ stamp, rank, onThumbnailUpdate }: StampCardP
           </span>
         </div>
         <div className="flex flex-col items-center p-2.5 rounded-lg bg-gray-800/30 border border-gray-700/30 group-hover:bg-gray-800/40 group-hover:border-purple-500/30 transition-all">
-          <UserPlus size={16} className="text-purple-400 mb-1.5" />
-          <span className="text-xs text-gray-400 mb-1 font-medium">Subs</span>
+          <TrendingUp size={16} className="text-purple-400 mb-1.5" />
+          <span className="text-xs text-gray-400 mb-1 font-medium">Save%</span>
           <span className="text-xs font-bold text-white">
-            {formatNumber(stamp.subscribe)}
+            {formatPercent(stamp.savePercent)}
           </span>
         </div>
       </div>
@@ -301,9 +363,11 @@ export default function StampCard({ stamp, rank, onThumbnailUpdate }: StampCardP
         stampName={stamp.categoryName}
         currentThumbnail={currentThumbnail || undefined}
         onUploadSuccess={(stampName, imageUrl) => {
-          setCurrentThumbnail(imageUrl);
+          // 쿼리 파라미터 제거하고 순수 URL만 저장
+          const cleanUrl = imageUrl.split('?')[0];
+          setCurrentThumbnail(cleanUrl);
           if (onThumbnailUpdate) {
-            onThumbnailUpdate(stampName, imageUrl);
+            onThumbnailUpdate(stampName, cleanUrl);
           }
         }}
       />

@@ -24,10 +24,66 @@
             "subsSelect": 10916,
             "subsSave": 6859
           }
-        ]
+        ],
+        "nonSubsSubsSuccess": 450,
+        "save": 17186
       },
       {
         "no": 2,
+        "name": "260119_luckyandhappy_pro",
+        "thumbnail": "/thumbnails/260119_luckyandhappy_pro.png",
+        "assetCount": 30,
+        "releaseWeek": "1월 3주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 1375,
+            "nonSubsSubsView": 432,
+            "nonSubsSubsSuccess": 14,
+            "subsSelect": 2738,
+            "subsSave": 1115
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 1780,
+            "nonSubsSubsView": 529,
+            "nonSubsSubsSuccess": 39,
+            "subsSelect": 5255,
+            "subsSave": 2148
+          }
+        ],
+        "nonSubsSubsSuccess": 53,
+        "save": 3263
+      },
+      {
+        "no": 3,
+        "name": "260119_minipaperdoodle_pro",
+        "thumbnail": "/thumbnails/260119_minipaperdoodle_pro.png",
+        "assetCount": 30,
+        "releaseWeek": "1월 3주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 542,
+            "nonSubsSubsView": 318,
+            "nonSubsSubsSuccess": 20,
+            "subsSelect": 1157,
+            "subsSave": 806
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 1022,
+            "nonSubsSubsView": 474,
+            "nonSubsSubsSuccess": 53,
+            "subsSelect": 3323,
+            "subsSave": 2334
+          }
+        ],
+        "nonSubsSubsSuccess": 53,
+        "save": 2336
+      },
+      {
+        "no": 4,
         "name": "260105_shapepatternseries_pro",
         "thumbnail": "/thumbnails/260105_shapepatternseries_pro.png",
         "assetCount": 30,
@@ -49,35 +105,12 @@
             "subsSelect": 4127,
             "subsSave": 1753
           }
-        ]
+        ],
+        "nonSubsSubsSuccess": 39,
+        "save": 2477
       },
       {
-        "no": 3,
-        "name": "260105_cutesimplelabel_pro",
-        "thumbnail": "/thumbnails/260105_cutesimplelabel_pro.png",
-        "assetCount": 26,
-        "releaseWeek": "1월 1주",
-        "periods": [
-          {
-            "period": "출시주",
-            "nonSubsSelect": 383,
-            "nonSubsSubsView": 200,
-            "nonSubsSubsSuccess": 9,
-            "subsSelect": 1206,
-            "subsSave": 674
-          },
-          {
-            "period": "1주경과",
-            "nonSubsSelect": 785,
-            "nonSubsSubsView": 276,
-            "nonSubsSubsSuccess": 21,
-            "subsSelect": 2103,
-            "subsSave": 1063
-          }
-        ]
-      },
-      {
-        "no": 4,
+        "no": 5,
         "name": "260105_visionboardcollage_pro",
         "thumbnail": "/thumbnails/260105_visionboardcollage_pro.png",
         "assetCount": 30,
@@ -99,32 +132,9 @@
             "subsSelect": 1213,
             "subsSave": 735
           }
-        ]
-      },
-      {
-        "no": 5,
-        "name": "260112_fluffyfuremoji_pro",
-        "thumbnail": "/thumbnails/260112_fluffyfuremoji_pro.png",
-        "assetCount": 30,
-        "releaseWeek": "1월 2주",
-        "periods": [
-          {
-            "period": "출시주",
-            "nonSubsSelect": 1064,
-            "nonSubsSubsView": 408,
-            "nonSubsSubsSuccess": 10,
-            "subsSelect": 2324,
-            "subsSave": 1166
-          },
-          {
-            "period": "1주경과",
-            "nonSubsSelect": 1557,
-            "nonSubsSubsView": 467,
-            "nonSubsSubsSuccess": 18,
-            "subsSelect": 4168,
-            "subsSave": 2026
-          }
-        ]
+        ],
+        "nonSubsSubsSuccess": 39,
+        "save": 938
       },
       {
         "no": 6,
@@ -149,57 +159,63 @@
             "subsSelect": 2066,
             "subsSave": 938
           }
-        ]
+        ],
+        "nonSubsSubsSuccess": 34,
+        "save": 1541
       },
       {
         "no": 7,
-        "name": "260112_corkcafeicon_pro",
-        "thumbnail": "/thumbnails/260112_corkcafeicon_pro.png",
-        "assetCount": 34,
+        "name": "260105_cutesimplelabel_pro",
+        "thumbnail": "/thumbnails/260105_cutesimplelabel_pro.png",
+        "assetCount": 26,
+        "releaseWeek": "1월 1주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 383,
+            "nonSubsSubsView": 200,
+            "nonSubsSubsSuccess": 9,
+            "subsSelect": 1206,
+            "subsSave": 674
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 785,
+            "nonSubsSubsView": 276,
+            "nonSubsSubsSuccess": 21,
+            "subsSelect": 2103,
+            "subsSave": 1063
+          }
+        ],
+        "nonSubsSubsSuccess": 30,
+        "save": 1737
+      },
+      {
+        "no": 8,
+        "name": "260112_fluffyfuremoji_pro",
+        "thumbnail": "/thumbnails/260112_fluffyfuremoji_pro.png",
+        "assetCount": 30,
         "releaseWeek": "1월 2주",
         "periods": [
           {
             "period": "출시주",
-            "nonSubsSelect": 111,
-            "nonSubsSubsView": 31,
-            "nonSubsSubsSuccess": 8,
-            "subsSelect": 174,
-            "subsSave": 73
+            "nonSubsSelect": 1064,
+            "nonSubsSubsView": 408,
+            "nonSubsSubsSuccess": 10,
+            "subsSelect": 2324,
+            "subsSave": 1166
           },
           {
             "period": "1주경과",
-            "nonSubsSelect": 97,
-            "nonSubsSubsView": 22,
-            "nonSubsSubsSuccess": 2,
-            "subsSelect": 289,
-            "subsSave": 124
+            "nonSubsSelect": 1557,
+            "nonSubsSubsView": 467,
+            "nonSubsSubsSuccess": 18,
+            "subsSelect": 4168,
+            "subsSave": 2026
           }
-        ]
-      },
-      {
-        "no": 8,
-        "name": "260119_luckyandhappy_pro",
-        "thumbnail": "/thumbnails/260119_luckyandhappy_pro.png",
-        "assetCount": 30,
-        "releaseWeek": "1월 3주",
-        "periods": [
-          {
-            "period": "출시주",
-            "nonSubsSelect": 1375,
-            "nonSubsSubsView": 432,
-            "nonSubsSubsSuccess": 14,
-            "subsSelect": 2738,
-            "subsSave": 1115
-          },
-          {
-            "period": "1주경과",
-            "nonSubsSelect": 1780,
-            "nonSubsSubsView": 529,
-            "nonSubsSubsSuccess": 39,
-            "subsSelect": 5255,
-            "subsSave": 2148
-          }
-        ]
+        ],
+        "nonSubsSubsSuccess": 28,
+        "save": 3192
       },
       {
         "no": 9,
@@ -224,32 +240,36 @@
             "subsSelect": 3700,
             "subsSave": 1639
           }
-        ]
+        ],
+        "nonSubsSubsSuccess": 28,
+        "save": 2503
       },
       {
         "no": 10,
-        "name": "260119_minipaperdoodle_pro",
-        "thumbnail": "/thumbnails/260119_minipaperdoodle_pro.png",
-        "assetCount": 30,
-        "releaseWeek": "1월 3주",
+        "name": "260126_kitschblurdrawing_pro",
+        "thumbnail": "/thumbnails/260126_kitschblurdrawing_pro.png",
+        "assetCount": 35,
+        "releaseWeek": "1월 4주",
         "periods": [
           {
             "period": "출시주",
-            "nonSubsSelect": 542,
-            "nonSubsSubsView": 318,
-            "nonSubsSubsSuccess": 20,
-            "subsSelect": 1157,
-            "subsSave": 806
+            "nonSubsSelect": 1780,
+            "nonSubsSubsView": 559,
+            "nonSubsSubsSuccess": 24,
+            "subsSelect": 3030,
+            "subsSave": 1410
           },
           {
             "period": "1주경과",
-            "nonSubsSelect": 1022,
-            "nonSubsSubsView": 474,
-            "nonSubsSubsSuccess": 53,
-            "subsSelect": 3323,
-            "subsSave": 2334
+            "nonSubsSelect": 0,
+            "nonSubsSubsView": 0,
+            "nonSubsSubsSuccess": 0,
+            "subsSelect": 0,
+            "subsSave": 0
           }
-        ]
+        ],
+        "nonSubsSubsSuccess": 24,
+        "save": 1410
       },
       {
         "no": 11,
@@ -274,35 +294,12 @@
             "subsSelect": 2249,
             "subsSave": 1133
           }
-        ]
+        ],
+        "nonSubsSubsSuccess": 21,
+        "save": 1675
       },
       {
         "no": 12,
-        "name": "260126_kitschblurdrawing_pro",
-        "thumbnail": "/thumbnails/260126_kitschblurdrawing_pro.png",
-        "assetCount": 35,
-        "releaseWeek": "1월 4주",
-        "periods": [
-          {
-            "period": "출시주",
-            "nonSubsSelect": 1780,
-            "nonSubsSubsView": 559,
-            "nonSubsSubsSuccess": 24,
-            "subsSelect": 3030,
-            "subsSave": 1410
-          },
-          {
-            "period": "1주경과",
-            "nonSubsSelect": 0,
-            "nonSubsSubsView": 0,
-            "nonSubsSubsSuccess": 0,
-            "subsSelect": 0,
-            "subsSave": 0
-          }
-        ]
-      },
-      {
-        "no": 13,
         "name": "260126_circlegrainblur_pro",
         "thumbnail": "/thumbnails/260126_circlegrainblur_pro.png",
         "assetCount": 25,
@@ -324,10 +321,12 @@
             "subsSelect": 0,
             "subsSave": 0
           }
-        ]
+        ],
+        "nonSubsSubsSuccess": 18,
+        "save": 1413
       },
       {
-        "no": 14,
+        "no": 13,
         "name": "260126_redglassesbear_pro",
         "thumbnail": "/thumbnails/260126_redglassesbear_pro.png",
         "assetCount": 24,
@@ -349,7 +348,36 @@
             "subsSelect": 0,
             "subsSave": 0
           }
-        ]
+        ],
+        "nonSubsSubsSuccess": 17,
+        "save": 1091
+      },
+      {
+        "no": 14,
+        "name": "260112_corkcafeicon_pro",
+        "thumbnail": "/thumbnails/260112_corkcafeicon_pro.png",
+        "assetCount": 34,
+        "releaseWeek": "1월 2주",
+        "periods": [
+          {
+            "period": "출시주",
+            "nonSubsSelect": 111,
+            "nonSubsSubsView": 31,
+            "nonSubsSubsSuccess": 8,
+            "subsSelect": 174,
+            "subsSave": 73
+          },
+          {
+            "period": "1주경과",
+            "nonSubsSelect": 97,
+            "nonSubsSubsView": 22,
+            "nonSubsSubsSuccess": 2,
+            "subsSelect": 289,
+            "subsSave": 124
+          }
+        ],
+        "nonSubsSubsSuccess": 10,
+        "save": 197
       },
       {
         "no": 15,
@@ -374,7 +402,9 @@
             "subsSelect": 0,
             "subsSave": 0
           }
-        ]
+        ],
+        "nonSubsSubsSuccess": 7,
+        "save": 377
       }
     ]
   },

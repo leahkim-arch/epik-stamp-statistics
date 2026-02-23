@@ -7,8 +7,23 @@ import { Lock, Unlock } from 'lucide-react';
 export default function AdminToggle() {
   const { isAdminMode, toggleAdminMode } = useAdmin();
   const [showHint, setShowHint] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
 
-      // 컴포넌트 마운트 시 키보드 이벤트 테스트
+  // Command+G로 표시/숨김 토글
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      // Command+G 또는 Ctrl+G
+      if ((e.metaKey || e.ctrlKey) && e.key === 'g' && !e.shiftKey && !e.altKey) {
+        e.preventDefault();
+        setIsVisible(prev => !prev);
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyPress);
+    return () => document.removeEventListener('keydown', handleKeyPress);
+  }, []);
+
+  // 컴포넌트 마운트 시 키보드 이벤트 테스트 (기존 코드 제거 가능하지만 일단 유지)
   useEffect(() => {
     const testKeyHandler = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.shiftKey && (e.key === 'k' || e.key === 'K')) {
@@ -24,6 +39,11 @@ export default function AdminToggle() {
     document.addEventListener('keydown', testKeyHandler, true);
     return () => document.removeEventListener('keydown', testKeyHandler, true);
   }, []);
+
+  // 버튼이 보이지 않으면 렌더링하지 않음
+  if (!isVisible) {
+    return null;
+  }
 
   return (
     <div className="fixed top-4 right-4 z-50">

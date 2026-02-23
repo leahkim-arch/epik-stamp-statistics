@@ -3,6 +3,122 @@
 import { useEffect, useState } from 'react';
 import { Sparkles, TrendingUp } from 'lucide-react';
 
+// 메달 아이콘 컴포넌트 - 이모지 스타일 (🥇)
+const MedalIcon = ({ rank }: { rank: number }) => {
+  const medalConfig = {
+    1: { 
+      medalColor: '#FFD700', // 금색
+      medalShadow: '#FFA500', // 금색 그림자
+      ribbonColor: '#EF4444', // 빨간색 리본
+      textColor: '#FFFFFF'
+    },
+    2: { 
+      medalColor: '#C0C0C0', // 은색
+      medalShadow: '#808080', // 은색 그림자
+      ribbonColor: '#3B82F6', // 파란색 리본
+      textColor: '#FFFFFF'
+    },
+    3: { 
+      medalColor: '#CD7F32', // 동색
+      medalShadow: '#8B4513', // 동색 그림자
+      ribbonColor: '#10B981', // 초록색 리본
+      textColor: '#FFFFFF'
+    },
+  };
+  
+  const config = medalConfig[rank as keyof typeof medalConfig];
+  if (!config) return null;
+  
+  return (
+    <div className="relative flex items-center justify-center" style={{ width: '36px', height: '40px' }}>
+      <svg 
+        style={{ width: '36px', height: '40px' }}
+        viewBox="0 0 36 40" 
+        fill="none" 
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        {/* 리본 (V자 형태, 메달 위쪽 중앙) */}
+        <path 
+          d="M12 8 L18 2 L24 8 L24 12 L18 10 L12 12 Z" 
+          fill={config.ribbonColor}
+        />
+        {/* 리본 하이라이트 */}
+        <path 
+          d="M12 8 L18 2 L24 8 L24 10 L18 8 L12 10 Z" 
+          fill="rgba(255, 255, 255, 0.3)"
+        />
+        {/* 리본 그림자 */}
+        <path 
+          d="M12 8 L18 2 L24 8 L24 12 L18 10 L12 12 Z" 
+          fill="rgba(0, 0, 0, 0.2)"
+          transform="translate(0, 1)"
+        />
+        
+        {/* 메달 원형 (이모지 스타일) - 입체감을 위한 그라데이션 */}
+        <defs>
+          <radialGradient id={`medalGradient-newpack-${rank}`} cx="50%" cy="30%">
+            <stop offset="0%" stopColor={config.medalColor} stopOpacity="1" />
+            <stop offset="100%" stopColor={config.medalShadow} stopOpacity="1" />
+          </radialGradient>
+        </defs>
+        
+        {/* 메달 그림자 (뒤쪽) */}
+        <circle 
+          cx="18" 
+          cy="26" 
+          r="11" 
+          fill="rgba(0, 0, 0, 0.3)"
+          transform="translate(1, 1)"
+        />
+        
+        {/* 메달 원형 */}
+        <circle 
+          cx="18" 
+          cy="25" 
+          r="11" 
+          fill={`url(#medalGradient-newpack-${rank})`}
+          stroke="rgba(255, 255, 255, 0.5)"
+          strokeWidth="0.8"
+        />
+        
+        {/* 메달 상단 하이라이트 */}
+        <ellipse 
+          cx="18" 
+          cy="18" 
+          rx="7" 
+          ry="4" 
+          fill="rgba(255, 255, 255, 0.3)"
+        />
+        
+        {/* 메달 내부 테두리 */}
+        <circle 
+          cx="18" 
+          cy="25" 
+          r="9" 
+          fill="none"
+          stroke="rgba(255, 255, 255, 0.2)"
+          strokeWidth="0.5"
+        />
+        
+        {/* 숫자 */}
+        <text 
+          x="18" 
+          y="29" 
+          fontSize="13" 
+          fontWeight="bold" 
+          fill={config.textColor}
+          textAnchor="middle"
+          fontFamily="system-ui, -apple-system, sans-serif"
+          stroke="rgba(0, 0, 0, 0.3)"
+          strokeWidth="0.8"
+        >
+          {rank}
+        </text>
+      </svg>
+    </div>
+  );
+};
+
 interface BestPack {
   no: number;
   name: string;
@@ -17,6 +133,8 @@ interface BestPack {
     subsSelect: number;
     subsSave: number;
   }>;
+  nonSubsSubsSuccess?: number;
+  save?: number;
 }
 
 interface WeekData {
@@ -127,7 +245,7 @@ export default function NewStampPack() {
             }`}
           >
             <Sparkles size={14} className="inline mr-2" />
-            1월 합산 (BEST PACK)
+            1월 신규 Stamp
           </button>
           {data.weeks.map((week) => (
             <button
@@ -153,7 +271,7 @@ export default function NewStampPack() {
         <div className="space-y-6">
           <div className="flex items-center gap-3 mb-6">
             <Sparkles className="text-purple-400" size={24} />
-            <h2 className="text-2xl font-bold text-white">BEST PACK (1월 합산)</h2>
+            <h2 className="text-2xl font-bold text-white">1월 신규 Stamp</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -162,19 +280,23 @@ export default function NewStampPack() {
               const launchWeek = pack.periods.find(p => p.period.includes('출시주'));
               const afterWeek = pack.periods.find(p => p.period.includes('1주경과'));
               
-              // 합산 데이터
-              // const totalNonSubsSelect = pack.periods.reduce((sum, p) => sum + p.nonSubsSelect, 0);
-              const totalNonSubsSubsSuccess = pack.periods.reduce((sum, p) => sum + p.nonSubsSubsSuccess, 0);
-              // const totalSubsSelect = pack.periods.reduce((sum, p) => sum + p.subsSelect, 0);
-              const totalSubsSave = pack.periods.reduce((sum, p) => sum + p.subsSave, 0);
-              // const totalSelect = totalNonSubsSelect + totalSubsSelect; // 사용하지 않음
-              const totalSave = totalSubsSave;
+              // BEST PACK은 이미 주차별 데이터 합산으로 재계산되었으므로 그대로 사용
+              // periods에서 합산하거나, 이미 계산된 값 사용
+              const totalNonSubsSubsSuccess = pack.nonSubsSubsSuccess || pack.periods.reduce((sum, p) => sum + p.nonSubsSubsSuccess, 0);
+              const totalSave = pack.save || pack.periods.reduce((sum, p) => sum + p.subsSave, 0);
 
               return (
                 <div
                   key={pack.no}
-                  className="bg-gray-900/50 border border-gray-700/50 rounded-2xl p-6 hover:border-purple-500/50 transition-all duration-300"
+                  className="relative bg-gray-900/50 border border-gray-700/50 rounded-2xl p-6 hover:border-purple-500/50 transition-all duration-300"
                 >
+                  {/* 메달 - 1위부터 3위까지 */}
+                  {pack.no <= 3 && (
+                    <div className="absolute top-3 left-3 z-10">
+                      <MedalIcon rank={pack.no} />
+                    </div>
+                  )}
+                  
                   {/* 썸네일 - Performance 스타일처럼 크게 */}
                   <div className="mb-6">
                     {pack.thumbnail && (
@@ -204,10 +326,12 @@ export default function NewStampPack() {
                   <div className="mb-4">
                     <div className="text-gray-400 text-xs mb-2 font-medium">전체 합산</div>
                     <div className="grid grid-cols-2 gap-2">
-                      <div className="bg-gray-800/50 rounded-lg p-2">
-                        <div className="text-gray-400 text-xs mb-0.5">구독성공</div>
-                        <div className="text-purple-400 font-bold text-sm">{formatNumber(totalNonSubsSubsSuccess)}</div>
+                      {/* 구독성공 - 가장 중요하므로 크게 강조 */}
+                      <div className="bg-gradient-to-br from-purple-500/20 via-pink-500/10 to-purple-500/20 border border-purple-500/30 rounded-lg p-3">
+                        <div className="text-gray-300 text-xs mb-1 font-medium">구독성공</div>
+                        <div className="text-purple-300 font-extrabold text-xl">{formatNumber(totalNonSubsSubsSuccess)}</div>
                       </div>
+                      {/* Save - 작게 표시 */}
                       <div className="bg-gray-800/50 rounded-lg p-2">
                         <div className="text-gray-400 text-xs mb-0.5">Save</div>
                         <div className="text-white font-bold text-sm">{formatNumber(totalSave)}</div>
@@ -284,8 +408,15 @@ export default function NewStampPack() {
               {currentWeekData.packages.map((pkg) => (
                 <div
                   key={pkg.no}
-                  className="bg-gray-900/50 border border-gray-700/50 rounded-2xl p-6 hover:border-blue-500/50 transition-all duration-300"
+                  className="relative bg-gray-900/50 border border-gray-700/50 rounded-2xl p-6 hover:border-blue-500/50 transition-all duration-300"
                 >
+                  {/* 메달 - 1위부터 3위까지 */}
+                  {pkg.no <= 3 && (
+                    <div className="absolute top-3 left-3 z-10">
+                      <MedalIcon rank={pkg.no} />
+                    </div>
+                  )}
+                  
                   {/* 썸네일 - Performance 스타일처럼 크게 */}
                   <div className="mb-6">
                     {pkg.thumbnail && (
