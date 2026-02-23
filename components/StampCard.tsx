@@ -249,7 +249,19 @@ export default function StampCard({ stamp, rank, onThumbnailUpdate }: StampCardP
               if ((thumbStr.startsWith('/thumbnails/') || thumbStr.startsWith('http')) && 
                   thumbStr.length > 10 &&
                   !isIdPattern) {
-                finalUrl = thumbStr;
+                // basePath 추가 (로컬 경로인 경우만)
+                if (thumbStr.startsWith('/thumbnails/')) {
+                  const basePath = '/epik-stamp-statistics';
+                  // 이미 basePath가 포함되어 있지 않은 경우만 추가
+                  if (!thumbStr.startsWith(basePath)) {
+                    finalUrl = `${basePath}${thumbStr}`;
+                  } else {
+                    finalUrl = thumbStr;
+                  }
+                } else {
+                  // 외부 URL인 경우 그대로 사용
+                  finalUrl = thumbStr;
+                }
               }
             }
             
@@ -264,11 +276,6 @@ export default function StampCard({ stamp, rank, onThumbnailUpdate }: StampCardP
             // 업로드된 썸네일인 경우 타임스탬프 추가하여 캐시 무시
             if (currentThumbnail && finalUrl.includes('/thumbnails/')) {
               return `${finalUrl}?t=${Date.now()}`;
-            }
-            
-            // basePath가 없는 경우 추가
-            if (finalUrl.startsWith('/thumbnails/') && !finalUrl.startsWith('/epik-stamp-statistics')) {
-              finalUrl = `/epik-stamp-statistics${finalUrl}`;
             }
             
             return finalUrl;
