@@ -177,8 +177,8 @@ export default function NewStampPack() {
   const [selectedWeek, setSelectedWeek] = useState<number | null>(null);
 
   useEffect(() => {
-    // basePath가 설정된 경우 절대 경로 사용
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    // basePath 하드코딩 (GitHub Pages용)
+    const basePath = '/epik-stamp-statistics';
     fetch(`${basePath}/new-stamp-pack.json`)
       .then((res) => {
         if (!res.ok) {

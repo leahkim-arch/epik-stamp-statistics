@@ -40,7 +40,7 @@ export default function PerformanceTab({ searchQuery, onThumbnailUpdate }: Perfo
   const [useAllWeeks, setUseAllWeeks] = useState(true);
 
   useEffect(() => {
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    const basePath = '/epik-stamp-statistics';
     fetch(`${basePath}/weekly-data.json`)
       .then((res) => {
         if (!res.ok) {
@@ -48,7 +48,6 @@ export default function PerformanceTab({ searchQuery, onThumbnailUpdate }: Perfo
         }
         return res.json();
       })
-      .then((res) => res.json())
       .then((data: WeeklyData) => {
         setWeeklyData(data);
         if (data.weeks.length > 0) {
@@ -64,7 +63,7 @@ export default function PerformanceTab({ searchQuery, onThumbnailUpdate }: Perfo
 
   useEffect(() => {
     // 전체 주차 데이터도 함께 로드 (기본값)
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    const basePath = '/epik-stamp-statistics';
     fetch(`${basePath}/data.json`)
       .then((res) => {
         if (!res.ok) {

@@ -42,7 +42,7 @@ export default function CountryRanking() {
   const [useAllWeeks, setUseAllWeeks] = useState(false);
 
   useEffect(() => {
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    const basePath = '/epik-stamp-statistics';
     fetch(`${basePath}/country-ranking.json`)
       .then((res) => {
         if (!res.ok) {
@@ -50,7 +50,6 @@ export default function CountryRanking() {
         }
         return res.json();
       })
-      .then((res) => res.json())
       .then((data) => {
         setData(data);
         if (data && data.weeks && data.weeks.length > 0) {
