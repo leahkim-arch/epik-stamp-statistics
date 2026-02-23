@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Fetch</title>
+</head>
+<body>
+    <script>
+        // 테스트: basePath가 포함된 경로
+        fetch('/epik-stamp-statistics/new-stamp-pack.json')
+            .then(r => r.json())
+            .then(d => console.log('Success with basePath:', d))
+            .catch(e => console.error('Failed with basePath:', e));
+        
+        // 테스트: 루트 경로
+        fetch('/new-stamp-pack.json')
+            .then(r => r.json())
+            .then(d => console.log('Success without basePath:', d))
+            .catch(e => console.error('Failed without basePath:', e));
+    </script>
+</body>
+</html>

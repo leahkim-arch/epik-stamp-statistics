@@ -40,7 +40,14 @@ export default function PerformanceTab({ searchQuery, onThumbnailUpdate }: Perfo
   const [useAllWeeks, setUseAllWeeks] = useState(true);
 
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/weekly-data.json`)
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    fetch(`${basePath}/weekly-data.json`)
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        return res.json();
+      })
       .then((res) => res.json())
       .then((data: WeeklyData) => {
         setWeeklyData(data);
@@ -57,7 +64,14 @@ export default function PerformanceTab({ searchQuery, onThumbnailUpdate }: Perfo
 
   useEffect(() => {
     // 전체 주차 데이터도 함께 로드 (기본값)
-    fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/data.json`)
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    fetch(`${basePath}/data.json`)
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        return res.json();
+      })
       .then((res) => res.json())
       .catch((err) => {
         console.error('전체 데이터 로딩 실패:', err);

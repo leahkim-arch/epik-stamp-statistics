@@ -42,7 +42,14 @@ export default function CountryRanking() {
   const [useAllWeeks, setUseAllWeeks] = useState(false);
 
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/country-ranking.json`)
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    fetch(`${basePath}/country-ranking.json`)
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        return res.json();
+      })
       .then((res) => res.json())
       .then((data) => {
         setData(data);

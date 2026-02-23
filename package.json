@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3002",
-    "build": "next build",
-    "export": "next build",
+    "build": "next build && npm run copy-public-files",
+    "export": "next build && npm run copy-public-files",
+    "copy-public-files": "node scripts/copy-public-files.js",
     "start": "next start -p 3002",
     "lint": "next lint"
   },
