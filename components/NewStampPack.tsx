@@ -177,7 +177,7 @@ export default function NewStampPack() {
   const [selectedWeek, setSelectedWeek] = useState<number | null>(null);
 
   useEffect(() => {
-    fetch('/new-stamp-pack.json')
+    fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/new-stamp-pack.json`)
       .then((res) => res.json())
       .then((data: NewStampPackData) => {
         setData(data);
