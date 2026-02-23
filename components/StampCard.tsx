@@ -256,12 +256,19 @@ export default function StampCard({ stamp, rank, onThumbnailUpdate }: StampCardP
             // 3. CategoryName 기반 로컬 썸네일 경로 생성
             if (!finalUrl) {
               const cleanName = stamp.categoryName.trim();
-              finalUrl = `/thumbnails/${cleanName}.png`;
+              // basePath 포함하여 경로 생성
+              const basePath = '/epik-stamp-statistics';
+              finalUrl = `${basePath}/thumbnails/${cleanName}.png`;
             }
             
             // 업로드된 썸네일인 경우 타임스탬프 추가하여 캐시 무시
-            if (currentThumbnail && finalUrl.startsWith('/thumbnails/')) {
+            if (currentThumbnail && finalUrl.includes('/thumbnails/')) {
               return `${finalUrl}?t=${Date.now()}`;
+            }
+            
+            // basePath가 없는 경우 추가
+            if (finalUrl.startsWith('/thumbnails/') && !finalUrl.startsWith('/epik-stamp-statistics')) {
+              finalUrl = `/epik-stamp-statistics${finalUrl}`;
             }
             
             return finalUrl;
